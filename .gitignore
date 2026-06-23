@@ -1,0 +1,27 @@
+# Local/private reading material
+_private/**
+!_private/
+!_private/.gitkeep
+
+# Local PDF archive. Prefer Zotero as the source of truth for PDFs.
+_attachments/**
+!_attachments/
+!_attachments/**/
+!_attachments/**/.gitkeep
+*.pdf
+*.djvu
+*.epub
+
+# Obsidian local state if this folder is ever opened as a standalone vault.
+.obsidian/workspace*
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
