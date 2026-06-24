@@ -12,6 +12,35 @@ This catalog is a starting map, not a permanent ontology. The folder tree should
 
 ## Current Top-Level Areas
 
+
+### Mathematics
+
+Mathematics is a top-level area because computational mathematics is part of the research identity of this system, not merely background reading.
+
+- `Analysis`: real analysis, functional analysis, harmonic analysis, and measure-theoretic background.
+- `Differential Equations`: ODEs, PDEs, dynamical systems, control theory, Sobolev spaces, spectral theory, and calculus of variations.
+- `Numerical Analysis`: numerical linear algebra, approximation theory, numerical PDEs, error analysis, and stability.
+- `Optimization`: optimization as a mathematical or numerical discipline.
+- `Probability and Statistics`: stochastic processes, high-dimensional probability, and statistical inference.
+- `Geometry`: differential geometry, Riemannian geometry, algebraic geometry, and geometric methods.
+- `Algebra`: abstract algebra, number theory, representation theory, and algebraic structures.
+- `TCS`: theoretical computer science as mathematics: algorithms, complexity, combinatorics, and graph theory.
+- `Logic and Foundations`: mathematical logic, set theory, proof theory, formalization, and foundations.
+
+Optimization boundary:
+
+- Put optimization theory, convex/nonconvex analysis, variational methods, first-order/second-order methods, stochastic approximation, optimal transport, and convergence-rate papers under `Mathematics/Optimization`.
+- Put optimizer papers for neural-network training under `Foundations/Optimization for Deep Learning`, `LLMs/Pretraining`, or another AI-facing folder when the main contribution is training behavior.
+- Cross-list with `topics` rather than duplicating files.
+
+### Computer Science
+
+Use this top-level area for non-AI computer science papers: algorithms, complexity, programming languages, distributed systems, databases, security, cryptography, and software engineering.
+
+### Physics
+
+Use this top-level area for physics papers that are useful background for computational mathematics, scientific machine learning, scientific applications, or general scientific taste.
+
 ### SciML
 
 SciML is the primary research area and is intentionally the most detailed branch.
