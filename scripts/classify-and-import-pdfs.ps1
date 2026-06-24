@@ -91,11 +91,71 @@ function Get-ResearchCategory($titleText, $bodyText) {
   $h = ($titleText + "`n" + $bodyText).ToLowerInvariant()
 
   # Very specific title-level signals should win over broad body-text signals.
+  # High-confidence title overrides prevent broad body text from dominating classic papers.
+  if ($t -match 'alphafold|protein structure|biomolecular') { return 'AI for Science\Biology and Medicine' }
+  if ($t -match 'alphaearth|earth system|weather|climate') { return 'AI for Science\Climate and Earth Systems' }
+  if ($t -match 'drug discovery|molecular force field|chemistry|materials') { return 'AI for Science\Chemistry and Materials' }
+  if ($t -match 'tokamak|fusion plasma|plasma|ai feynman') { return 'AI for Science\Physics' }
+  if ($t -match 'autoformalization|theorem proving|proof search|proofnet|lean(copilot|dojo|explore)|mathlib|formal mathematics|alphageometry|lego-prover|machine assisted proof|olympiad geometry') { return 'AI for Science\AI for Mathematics\Theorem Proving and Formalization' }
+  if ($t -match 'funsearch|ai co-mathematician|ramanujan machine|alphaevolve|mathematical discovery|mathematical exploration|ai4m|knot invariant|knot theory|constructions in combinatorics|gilbert-pollak|ml assisted exploration') { return 'AI for Science\AI for Mathematics\Mathematical Discovery' }
+
+  if ($t -match 'attention is all you need|^bert$|gpt1|mixtral') { return 'LLMs\Pretraining\Architectures' }
+  if ($t -match 'alex-net|alexnet|vgg|resnet|resnext|densenet|lenet|googlenet|identity mapping in resnet|cnn features') { return 'Computer Vision\Architectures\CNNs' }
+  if ($t -match 'vision transformer|\bvit\b|swin|scaling vits') { return 'Computer Vision\Architectures\Vision Transformers' }
+  if ($t -match '^clip$|^vilt$|neural image caption|vl-jepa') { return 'Computer Vision\Vision-Language Models' }
+  if ($t -match '^dino$|^mae$|^moco$|v-jepa') { return 'Computer Vision\Architectures\Vision Foundation Models' }
+  if ($t -match 'mask r-cnn|^sam$|segment anything') { return 'Computer Vision\Segmentation' }
+  if ($t -match 'yolov|faster r-cnn|object detection|multiple object recognition') { return 'Computer Vision\Object Detection' }
+  if ($t -match 'imagenet|image classification|noisy student') { return 'Computer Vision\Image Classification' }
+  if ($t -match 'nerf|gaussian splatting|restir') { return 'Computer Vision\3D Vision' }
+  if ($t -match 'srgan|esrgan|super-resolution') { return 'Computer Vision\Low-Level Vision\Super-Resolution' }
+
+  if ($t -match 'cycle gan|conditional gan|^gan$|^dcgan$|pix2pix|pro gan|\bwgan\b') { return 'Generative AI\GANs' }
+  if ($t -match 'auto-encoding variational bayes|variational autoencoder|\bvae\b') { return 'Generative AI\VAEs and Flow Models' }
+  if ($t -match 'dreamfusion|dall e2|prolificdreamer|text-to-3d') { return 'Generative AI\Multimodal Generation' }
+  if ($t -match 'image gpt|image transformer|wavenet|autoregressive generative') { return 'Generative AI\Autoregressive Generation' }
+  if ($t -match 'flow matching|rectified flow|stochastic interpolants|mean flow') { return 'Generative AI\Diffusion and Score Models\Flow Matching' }
+  if ($t -match 'diffusion|score matching|ddpm|ddim|classifier-free|probability flow ode|latent diffusion|\bldm\b|^dit$|consistency model|denoising generative') { return 'Generative AI\Diffusion and Score Models' }
+
+  if ($t -match 'sparse autoencoder|\bsae\b|gemma scope|gated sae') { return 'Mechanistic Interpretability\Sparse Autoencoders' }
+  if ($t -match 'activation patching|causal tracing') { return 'Mechanistic Interpretability\Activation Patching and Causal Tracing' }
+  if ($t -match 'automated circuit|copy suppression|interpretability in the wild') { return 'Mechanistic Interpretability\Circuits and Features' }
+  if ($t -match 'persona vectors|toy models of superposition|svcca') { return 'Mechanistic Interpretability\Representation Geometry' }
+  if ($t -match 'refusal|jailbroken|safety training fail') { return 'Mechanistic Interpretability\Alignment and Safety' }
+  if ($t -match 'adversarial examples|adversarial attacks|adversarial training') { return 'Mechanistic Interpretability\Robustness and Monitoring' }
+  if ($t -match 'interpretability|attribution|tuned lens|amnesic probing|probing|grad-cam|saliency|transcoder|white box transformers|deep visualization|gan dissection') { return 'Mechanistic Interpretability\Model Internals and Probing' }
+
+  if ($t -match 'co-teaching|label noise|loss correction|dataset bias') { return 'Foundations\Data-Centric ML' }
+  if ($t -match 'batch norm|layer norm|rmsnorm|group norm|dropout|kaiming|xavier|sharpness-aware|adamw?|adafactor|galore|maml|meta-learning|loss landscape|sgd noise|hyper-parameter optimization|nuclear norm regularization') { return 'Foundations\Optimization for Deep Learning' }
+  if ($t -match 'grokking|memorization|spectral bias|lottery ticket|relu networks|linear regions|neural scaling law|learning-curve|random forests|bagging predictors|support vector networks|rnn is turing complete') { return 'Foundations\Learning Theory' }
+  if ($t -match 'word2vec|glove|rnn$|lstm$|seq2seq|denoising autoencoders|autoencoder|distilling the knowledge|neural turing machines|fourier features|\bkan\b|hyena|\bttt\b|state spaces|representation learning|gelu|whisper|speech recognition') { return 'Foundations\Representation Learning' }
+
+  if ($t -match 'conjugate gradients') { return 'Mathematics\Numerical Linear Algebra\Krylov Methods' }
+  if ($t -match 'qr factorization') { return 'Mathematics\Numerical Linear Algebra\Matrix Factorizations' }
+  if ($t -match 'iterative method.*linear|linear simultaneous equations|singular and semidefinite linear systems') { return 'Mathematics\Numerical Linear Algebra\Preconditioning and Iterative Solvers' }
+  if ($t -match 'nonuniform fft|barycentric lagrange|quadrature|lebesgue constants|weno|finite difference|gibbs phenomenon|floating-point|weierstrass|approximation theory|numerical analysis') { return 'Mathematics\Numerical Analysis' }
+  if ($t -match 'distributed optimization|decentralized gradient|federated optimization|scaffold') { return 'Mathematics\Optimization\Distributed Optimization' }
+  if ($t -match 'nesterov|proximal algorithms') { return 'Mathematics\Optimization\First-Order Methods' }
+  if ($t -match 'non-convex optimization|saddle point') { return 'Mathematics\Optimization\Nonconvex Optimization' }
+  if ($t -match 'stochastic optimization|random reshuffling|adaptive subgradient') { return 'Mathematics\Optimization\Stochastic Optimization' }
+  if ($t -match 'zeroth-order optimization|convex optimization|gradient descent') { return 'Mathematics\Optimization' }
+  if ($t -match 'computable numbers|simulating time|extremal graphs|independence polynomial|open addressing') { return 'Mathematics\TCS' }
+
+  if ($t -match 'c\+\+ concurrency memory model|java memory model|threads cannot be implemented|goto statement|emperor''s old clothes') { return 'Computer Science\Programming Languages' }
+  if ($t -match 'meltdown|spectre|hidden voice|trusting trust|computer security') { return 'Computer Science\Security and Cryptography' }
+  if ($t -match 'mapreduce|spark|cap theorem') { return 'Computer Science\Distributed Systems' }
+  if ($t -match 'tpu|brook|hardware lottery|mixed precision') { return 'ML Systems\Hardware and Compilers' }
+  if ($t -match 'gspmd|megatron|zero-infinity|pathways|qsgd|megascale|distributed deep learning|gpu clusters|activation recomputation|bluefog') { return 'ML Systems\Distributed Training' }
+  if ($t -match 'alphago|human-level control|playing atari|\bppo\b|\btrpo\b|deep rl|q-learning|td learning|generalized advantage|policy gradient|approximate dp|deep q-learning|treeqn|offline mcts|imitation learning|\bdagger\b') { return 'Reinforcement Learning and Control' }
+  if ($t -match 'muzero|alphazero|world models$|leworldmodel') { return 'Reinforcement Learning and Control\Model-Based RL' }
+  if ($t -match 'mobile aloha|rt1|octo|palm-e|openvla|voxposer|bimanual manipulation|visuomotor|sim2real|simulation to reality') { return 'Robotics and Embodied AI' }
+  if ($t -match 'quantum|everett') { return 'Physics\Quantum Physics' }
+  if ($t -match 'kolmogorov theory of turbulence|fluid-solid') { return 'Physics\Fluid Dynamics' }
+  if ($t -match 'statistical mechanics') { return 'Physics\Statistical Mechanics' }
   if ($t -match 'cap theorem|distributed systems') { return 'Computer Science\Distributed Systems' }
   if ($t -match 'cryptography|security') { return 'Computer Science\Security and Cryptography' }
   if ($t -match 'programming language|compiler') { return 'Computer Science\Programming Languages' }
   if ($t -match 'database|b-tree|b\+tree') { return 'Computer Science\Databases' }
-  if ($t -match 'algorithm|complexity') { return 'Computer Science\Algorithms and Complexity' }
 
   if ($t -match 'adamw?|\bsgd\b|optimizer|optimizers|shampoo|\blion\b|\bmuon\b|sophia|gradient clipping|weight decay|learning rate|warmup|8-bit optimizer|zeroth-order optimization') {
     if ($h -match 'deep learning|neural network|language model|transformer|large model|training|machine learning') { return 'Foundations\Optimization for Deep Learning' }
@@ -129,14 +189,14 @@ function Get-ResearchCategory($titleText, $bodyText) {
   if ($h -match 'neural sde|stochastic differential equation') { return 'SciML\Neural Differential Equations\Neural SDEs' }
   if ($h -match 'scientific machine learning|pde surrogate|surrogate model.*pde|learning-based multiscale|learned pde solver|data-driven.*pde') { return 'SciML\PDE Solvers and Surrogates' }
 
-  if ($h -match 'large language model|\bllm\b|language models?|transformer|tokenizer|pretrain|pre-training|instruction tuning|rlhf|rlaif|direct preference optimization|\bdpo\b|rag|retrieval augmented|long context') {
-    if ($h -match 'rlhf|rlaif|preference optimization|reward model|instruction tuning|supervised fine-tuning|\bsft\b|direct preference optimization|\bdpo\b') { return 'LLMs\Post-training' }
-    if ($h -match 'inference|serving|kv cache|quantization|speculative decoding|decoding') { return 'LLMs\Inference' }
-    if ($h -match 'retrieval|rag|memory') { return 'LLMs\Retrieval and Memory' }
-    if ($h -match 'reasoning|agent|tool use|long context|multimodal') { return 'LLMs\Capabilities' }
+  $llmSignal = ($t -match 'large language model|\bllm\b|language models?|transformer|tokenizer|pretrain|pre-training|instruction tuning|rlhf|rlaif|direct preference optimization|\bdpo\b|rag|retrieval augmented|long context|chain-of-thought|\bcot\b|bert|gpt|mixtral') -or ($h -match 'large language models?|\bllm\b|language models?')
+  if ($llmSignal) {
+    if ($h -match 'rlhf|rlaif|preference optimization|reward model|instruction tuning|supervised fine-tuning|\bsft\b|direct preference optimization|\bdpo\b|verifiable rewards') { return 'LLMs\Post-training' }
+    if ($t -match 'serving|kv cache|quantization|speculative decoding|decoding|efficient inference') { return 'LLMs\Inference' }
+    if ($t -match 'retrieval|rag|memory') { return 'LLMs\Retrieval and Memory' }
+    if ($t -match 'reasoning|agent|tool use|long context|multimodal|chain-of-thought|\bcot\b') { return 'LLMs\Capabilities' }
     return 'LLMs\Pretraining'
   }
-
   if ($h -match 'diffusion model|score matching|score-based|flow matching|consistency model|latent diffusion') { return 'Generative AI\Diffusion and Score Models' }
   if ($h -match 'generative adversarial|\bgan\b|\bgans\b') { return 'Generative AI\GANs' }
   if ($h -match 'variational autoencoder|\bvae\b|normalizing flow') { return 'Generative AI\VAEs and Flow Models' }
