@@ -25,7 +25,6 @@ Mathematics is a top-level area because computational mathematics is part of the
 - `Geometry`: differential geometry, Riemannian geometry, algebraic geometry, and geometric methods.
 - `Algebra`: abstract algebra, number theory, representation theory, and algebraic structures.
 - `TCS`: theoretical computer science as mathematics: algorithms, complexity, combinatorics, and graph theory.
-- `Logic and Foundations`: mathematical logic, set theory, proof theory, formalization, and foundations.
 
 Optimization boundary:
 

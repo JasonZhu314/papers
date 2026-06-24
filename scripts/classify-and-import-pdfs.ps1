@@ -142,12 +142,12 @@ function Get-ResearchCategory($titleText, $bodyText) {
   if ($h -match 'optimal transport') { return 'Mathematics\Optimization\Optimal Transport' }
   if ($h -match 'convex optimization|nonconvex optimization|gradient descent|first-order method|second-order method|stochastic optimization|variational inequality|primal-dual|convergence rate|lower bound') { return 'Mathematics\Optimization' }
   if ($h -match 'numerical linear algebra|multigrid|finite element|finite difference|spectral method|numerical pde|approximation theory|error estimate|stability analysis') { return 'Mathematics\Numerical Analysis' }
-  if ($h -match 'sobolev|functional analysis|banach|hilbert|elliptic|parabolic|partial differential equations|calculus of variations|spectral theory') { return 'Mathematics\Functional Analysis and PDEs' }
+  if ($h -match 'elliptic|parabolic|partial differential equations|calculus of variations|pde\b|\bodes?\b|ordinary differential equation|dynamical system|optimal control|control theory|stability theory') { return 'Mathematics\Differential Equations' }
+  if ($h -match 'sobolev|functional analysis|banach|hilbert|spectral theory|measure theory|harmonic analysis|real analysis') { return 'Mathematics\Analysis' }
   if ($h -match 'probability|stochastic process|random matrix|high-dimensional probability|statistical inference|bayesian|monte carlo') { return 'Mathematics\Probability and Statistics' }
-  if ($h -match 'dynamical system|ordinary differential equation|optimal control|control theory|stability theory') { return 'Mathematics\Dynamical Systems and Control Theory' }
-  if ($h -match 'algebraic topology|algebraic geometry|differential geometry|number theory|commutative algebra|riemannian geometry') { return 'Mathematics\Algebra Geometry and Topology' }
-  if ($h -match 'combinatorics|graph theory|theoretical computer science|complexity theory') { return 'Mathematics\Discrete Mathematics and Theoretical CS' }
-  if ($h -match 'forcing|logic|set theory|proof theory|type theory|formal') { return 'Mathematics\Logic and Foundations' }
+  if ($h -match 'algebraic geometry|differential geometry|riemannian geometry|topological data analysis|\btda\b|topology|manifold') { return 'Mathematics\Geometry' }
+  if ($h -match 'abstract algebra|number theory|commutative algebra|representation theory|galois|torsion') { return 'Mathematics\Algebra' }
+  if ($h -match 'combinatorics|graph theory|theoretical computer science|complexity theory|forcing|logic|set theory|proof theory|type theory|formalization|formal methods') { return 'Mathematics\TCS' }
 
   if ($h -match 'quantum|statistical mechanics|condensed matter|particle physics|relativity|gravitation|fluid dynamics|computational physics') {
     if ($h -match 'quantum') { return 'Physics\Quantum Physics' }
