@@ -1,0 +1,77 @@
+---
+note_type: paper
+title: "Searching for Singularities in NS"
+aliases: []
+authors: []
+year: 2019
+venue:
+paper_type: research
+status: inbox
+depth: skim
+importance: 3
+topics:
+  - "Mathematics"
+  - "Differential Equations"
+  - "PDEs"
+tags: []
+citation_key:
+zotero_key:
+url: "https://arxiv.org/abs/1902.06313"
+doi: "10.1038/s42254-019-0068-9"
+arxiv: "1902.06313"
+pdf: "_attachments/PDFs/Mathematics/Differential Equations/PDEs/Searching for Singularities in NS.pdf"
+date_added: 2026-06-24
+date_read:
+has_ideas: false
+publish: true
+---
+
+# Searching for Singularities in NS
+
+pdf: "_attachments/PDFs/Mathematics/Differential Equations/PDEs/Searching for Singularities in NS.pdf"
+
+## Quick Recall
+
+-
+
+## Why Read
+
+-
+
+## Problem And Motivation
+
+-
+
+## Core Idea
+
+-
+
+## Method At A Glance
+
+-
+
+## Experiments And Evaluation
+
+-
+
+## Theory Or Formal Result
+
+-
+
+## Related Work Map
+
+- Predecessors:
+- Contemporary work:
+- Follow-ups:
+
+## Limitations
+
+-
+
+## Connections And Ideas
+
+-
+
+## Follow-Up
+
+- [ ] Decide whether this should remain `skim`, become `standard`, or be promoted to `deep` / `paper-with-code`.
