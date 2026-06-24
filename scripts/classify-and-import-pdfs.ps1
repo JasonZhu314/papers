@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$SourceDir = "C:\Users\zhuji\Documents\Books",
   [string]$ArchiveRoot = "_attachments\PDFs",
   [string]$ReportDir = "_private\import-reports",
@@ -101,6 +101,23 @@ function Get-ResearchCategory($titleText, $bodyText) {
     if ($h -match 'deep learning|neural network|language model|transformer|large model|training|machine learning') { return 'Foundations\Optimization for Deep Learning' }
   }
 
+  if ($h -match 'alphageometry|alpha geometry|autoformalization|auto-formalization|theorem proving|formal proof|interactive theorem prover|proof assistant|lean theorem|conjecture generation|mathematical discovery|ai-assisted mathematical|use of ai in mathematical research') { return 'AI for Science\AI for Mathematics' }
+  if ($h -match 'alphafold|protein structure|protein folding|genomics|drug discovery|biomedical|medicine|medical science|biology') { return 'AI for Science\Biology and Medicine' }
+  if ($h -match 'molecular force field|force fields?|molecular generation|reaction prediction|catalyst|chemistry|chemical|materials discovery|materials science|self-driving laboratory') { return 'AI for Science\Chemistry and Materials' }
+  if ($h -match 'weather|climate|earth system|geoscience|earth science') { return 'AI for Science\Climate and Earth Systems' }
+  if ($h -match 'scientific foundation model|foundation model.*scientific|foundation model.*science|science foundation model') { return 'AI for Science\Scientific Foundation Models' }
+  if ($h -match 'ai feynman|scientific discovery|ai for science|ai scientist|scientific agent|autonomous lab|closed-loop lab|robot scientist') { return 'AI for Science\Scientific Agents and Labs' }
+  if ($h -match '(machine learning|deep learning|neural network|artificial intelligence|\bai\b).*(physics|physical discovery)|(physics|physical discovery).*(machine learning|deep learning|neural network|artificial intelligence|\bai\b)') { return 'AI for Science\Physics' }
+  if ($h -match '(machine learning|deep learning|neural network|artificial intelligence|\bai\b).*(engineering design|engineering system)|(engineering design|engineering system).*(machine learning|deep learning|neural network|artificial intelligence|\bai\b)') { return 'AI for Science\Engineering Systems' }
+
+  if ($h -match 'sparse autoencoder|\bsaes?\b|feature dictionary|dictionary learning.*feature') { return 'Mechanistic Interpretability\Sparse Autoencoders' }
+  if ($h -match 'activation patching|path patching|causal tracing|causal intervention|causal scrubbing') { return 'Mechanistic Interpretability\Activation Patching and Causal Tracing' }
+  if ($h -match 'mechanistic interpretability|induction heads?|superposition|circuits?|feature geometry') { return 'Mechanistic Interpretability\Circuits and Features' }
+  if ($h -match 'representation geometry|linear representation|representation engineering|probing|linear probe') { return 'Mechanistic Interpretability\Representation Geometry' }
+  if ($h -match 'ai safety|alignment|jailbreak|deceptive alignment|scalable oversight|red teaming|constitutional ai|model organism|mesa-optimization|privacy|fairness|bias') { return 'Mechanistic Interpretability\Alignment and Safety' }
+  if ($h -match 'robustness|monitoring|anomaly detection|distribution shift|out-of-distribution|\bood\b') { return 'Mechanistic Interpretability\Robustness and Monitoring' }
+  if ($h -match 'interpretability|explainable ai|\bxai\b|axiomatic attribution|integrated gradients|saliency|attribution method') { return 'Mechanistic Interpretability\Model Internals and Probing' }
+
   if ($h -match 'fourier neural operator|\bfno\b') { return 'SciML\Operator Learning\Neural Operators\Fourier Neural Operators' }
   if ($h -match 'graph neural operator|\bgno\b') { return 'SciML\Operator Learning\Neural Operators\Graph Neural Operators' }
   if ($h -match 'transformer neural operator') { return 'SciML\Operator Learning\Neural Operators\Transformer Neural Operators' }
@@ -113,7 +130,7 @@ function Get-ResearchCategory($titleText, $bodyText) {
   if ($h -match 'scientific machine learning|pde surrogate|surrogate model.*pde|learning-based multiscale|learned pde solver|data-driven.*pde') { return 'SciML\PDE Solvers and Surrogates' }
 
   if ($h -match 'large language model|\bllm\b|language models?|transformer|tokenizer|pretrain|pre-training|instruction tuning|rlhf|rlaif|direct preference optimization|\bdpo\b|rag|retrieval augmented|long context') {
-    if ($h -match 'rlhf|rlaif|preference optimization|reward model|instruction tuning|supervised fine-tuning|\bsft\b|alignment') { return 'LLMs\Post-training' }
+    if ($h -match 'rlhf|rlaif|preference optimization|reward model|instruction tuning|supervised fine-tuning|\bsft\b|direct preference optimization|\bdpo\b') { return 'LLMs\Post-training' }
     if ($h -match 'inference|serving|kv cache|quantization|speculative decoding|decoding') { return 'LLMs\Inference' }
     if ($h -match 'retrieval|rag|memory') { return 'LLMs\Retrieval and Memory' }
     if ($h -match 'reasoning|agent|tool use|long context|multimodal') { return 'LLMs\Capabilities' }
@@ -137,11 +154,11 @@ function Get-ResearchCategory($titleText, $bodyText) {
   if ($h -match 'graph neural network|geometric deep learning|manifold learning|graph convolution|molecular graph') { return 'Graph and Geometric Learning' }
   if ($h -match 'reinforcement learning|policy optimization|markov decision|\bmdp\b|q-learning') { return 'Reinforcement Learning and Control' }
   if ($h -match 'distributed training|model compression|hardware|compiler|data systems|efficient inference') { return 'ML Systems' }
-  if ($h -match 'interpretability|robustness|privacy|fairness|safety alignment') { return 'Trustworthy AI' }
 
   if ($h -match 'optimal transport') { return 'Mathematics\Optimization\Optimal Transport' }
   if ($h -match 'convex optimization|nonconvex optimization|gradient descent|first-order method|second-order method|stochastic optimization|variational inequality|primal-dual|convergence rate|lower bound') { return 'Mathematics\Optimization' }
-  if ($h -match 'numerical linear algebra|multigrid|finite element|finite difference|spectral method|numerical pde|approximation theory|error estimate|stability analysis') { return 'Mathematics\Numerical Analysis' }
+  if ($h -match 'numerical linear algebra|krylov|gmres|conjugate gradient|precondition(er|ing)|iterative solver|eigenvalue|singular linear systems?|semidefinite linear systems?|matrix factorization|qr factorization|lu factorization|low-rank|randomized linear algebra') { return 'Mathematics\Numerical Linear Algebra' }
+  if ($h -match 'multigrid|finite element|finite difference|spectral method|numerical pde|approximation theory|error estimate|stability analysis') { return 'Mathematics\Numerical Analysis' }
   if ($h -match 'elliptic|parabolic|partial differential equations|calculus of variations|pde\b|\bodes?\b|ordinary differential equation|dynamical system|optimal control|control theory|stability theory') { return 'Mathematics\Differential Equations' }
   if ($h -match 'sobolev|functional analysis|banach|hilbert|spectral theory|measure theory|harmonic analysis|real analysis') { return 'Mathematics\Analysis' }
   if ($h -match 'probability|stochastic process|random matrix|high-dimensional probability|statistical inference|bayesian|monte carlo') { return 'Mathematics\Probability and Statistics' }
@@ -170,7 +187,6 @@ function Get-ResearchCategory($titleText, $bodyText) {
 
   return 'Unsorted Research'
 }
-
 function Classify-One($file, $sourceRoot, $archiveRoot, $pdfInfoTool, $pdfTextTool, $textPages) {
   $info = $null
   $text = ''
