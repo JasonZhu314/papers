@@ -120,6 +120,88 @@ Use `_private/` or `publish: false` for:
 - detailed annotations that quote too much from copyrighted PDFs;
 - full BibTeX exports if you do not want your full library public.
 
+
+## Why Use Zotero If You Are Not Writing Citations Yet?
+
+Zotero is useful before formal citation management because it gives every paper a reliable identity.
+
+Without Zotero, the system depends on filenames and folders. That breaks down when titles are abbreviated, PDFs are duplicated, arXiv versions change, or the same paper appears in multiple topics.
+
+Zotero adds:
+
+- stable citation keys;
+- duplicate detection;
+- DOI/arXiv identity;
+- author/year/venue metadata;
+- a future BibTeX export path for papers and proposals;
+- a local API that AI agents can query;
+- a clean boundary between paper files and research understanding.
+
+You are not using Zotero because you are currently writing citations. You are using it so that the paper library does not become an ambiguous pile of PDFs.
+
+## Zotero Collections Versus Obsidian Categories
+
+The Zotero collection is not expected to mirror the 800+ PDFs already in this repository.
+
+Recommended Zotero structure:
+
+- `Paper Reading`: all papers that have entered the reading system.
+- `Legacy Import Review`: temporary collection for old PDFs being cleaned up.
+- Optional coarse collections: `SciML`, `LLMs`, `Mathematics`, `AI for Science`, `Computer Vision`.
+
+Do not recreate every Obsidian folder in Zotero. Obsidian's folder tree and `topics` frontmatter are the semantic taxonomy. Zotero is the bibliographic index.
+
+## Adding New Papers
+
+When you encounter a new paper online, prefer this order:
+
+1. Save the paper to Zotero from the abstract, arXiv, DOI, or publisher page using the Zotero Connector.
+2. Put the item in `Paper Reading`.
+3. Check title, authors, year, venue, DOI/arXiv, and citation key.
+4. Decide whether you need a local Obsidian PDF copy.
+5. If yes, place the PDF under `_attachments/PDFs/<same path as note>.pdf`.
+6. Create/sync the Obsidian note.
+
+If you already downloaded the PDF first, add the paper to Zotero anyway. The PDF file and the Zotero metadata item are different responsibilities.
+
+## Importing Existing PDFs Into Zotero
+
+Do not import all old PDFs at once unless you want a large cleanup project. Use staged import.
+
+### Active-Use Import
+
+This is the default. When you choose an old PDF to read:
+
+1. Open the note or PDF.
+2. Find DOI/arXiv if available.
+3. Add the item to Zotero by identifier, or link the existing PDF to a new Zotero item.
+4. Put it in `Paper Reading`.
+5. Fix metadata only if the paper matters.
+6. Run metadata sync.
+
+### Batch Import
+
+Use this for important folders only.
+
+1. In Zotero, create `Legacy Import Review`.
+2. Add 25-50 PDFs from one Obsidian topic folder.
+3. Prefer linked files if you want Zotero to point to the existing `_attachments/PDFs/...` files.
+4. Use Zotero metadata retrieval / parent-item creation.
+5. Correct obvious failures.
+6. Move clean items to `Paper Reading`.
+7. Leave unresolved items for later.
+
+Batch size matters. Small batches keep cleanup visible and reversible.
+
+## Linked Files Versus Stored Files
+
+For this repository, linked files usually fit best:
+
+- Zotero points to the existing PDF under `_attachments/PDFs/...`.
+- Obsidian links remain stable.
+- Git ignores the PDF.
+
+Stored files are also valid if you want Zotero to own the PDF copy inside its storage directory. In that mode, Obsidian notes can still point to Zotero via `zotero_uri`, but `pdf:` may be blank or point to a separate local mirror.
 ## Useful Links
 
 - Zotero adding items: https://www.zotero.org/support/adding_items_to_zotero
