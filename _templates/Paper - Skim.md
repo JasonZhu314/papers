@@ -13,6 +13,8 @@ topics: []
 tags: []
 citation_key:
 zotero_key:
+zotero_uri:
+zotero_pdf_uri:
 url:
 doi:
 arxiv:

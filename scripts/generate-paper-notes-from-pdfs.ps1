@@ -176,6 +176,8 @@ function New-PaperNoteContent($title, $topics, $pdfVaultPath, $metadata, $dateAd
     'tags: []',
     'citation_key:',
     'zotero_key:',
+    'zotero_uri:',
+    'zotero_pdf_uri:',
     $urlLine,
     $doiLine,
     $arxivLine,

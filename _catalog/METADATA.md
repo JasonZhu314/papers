@@ -18,6 +18,8 @@ topics: []
 tags: []
 citation_key:
 zotero_key:
+zotero_uri:
+zotero_pdf_uri:
 url:
 doi:
 arxiv:
@@ -45,8 +47,10 @@ publish: true
 
 ## Optional But Useful Fields
 
-- `citation_key`: stable key for citations and MOCs.
+- `citation_key`: stable Better BibTeX key for citations and MOCs.
 - `zotero_key`: Zotero item key if available.
+- `zotero_uri`: Zotero item URI, useful for opening the item from Obsidian.
+- `zotero_pdf_uri`: Zotero PDF attachment URI, useful when the PDF is managed inside Zotero.
 - `url`, `doi`, `arxiv`: source identifiers.
 - `pdf`: local path or Zotero pointer. Do not commit PDFs.
 - `date_added`: when the paper entered the system.
