@@ -2,7 +2,15 @@
 note_type: paper
 title: "Attention is All You Need"
 aliases: []
-authors: []
+authors:
+  - "Vaswani, Ashish"
+  - "Shazeer, Noam"
+  - "Parmar, Niki"
+  - "Uszkoreit, Jakob"
+  - "Jones, Llion"
+  - "Gomez, Aidan N."
+  - "Kaiser, Lukasz"
+  - "Polosukhin, Illia"
 year: 2017
 venue:
 paper_type: research
@@ -14,10 +22,12 @@ topics:
   - "Pretraining"
   - "Architectures"
 tags: []
-citation_key:
-zotero_key:
+citation_key: "vaswaniAttentionAllYou2017"
+zotero_key: "QMDV8XFF"
+zotero_uri: "zotero://select/library/items/QMDV8XFF"
+zotero_pdf_uri:
 url: "https://arxiv.org/abs/1706.03762"
-doi:
+doi: "10.48550/arxiv.1706.03762"
 arxiv: "1706.03762v7"
 pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/Attention is All You Need.pdf"
 date_added: 2026-06-24
