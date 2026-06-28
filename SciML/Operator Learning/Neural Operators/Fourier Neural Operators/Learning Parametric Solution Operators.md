@@ -6,15 +6,16 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: queued
+depth: standard
+importance: 4
 topics:
   - "SciML"
   - "Operator Learning"
   - "Neural Operators"
   - "Fourier Neural Operators"
-tags: []
+tags:
+  - "first-reading-queue"
 citation_key:
 zotero_key:
 url:

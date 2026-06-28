@@ -6,13 +6,14 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: queued
+depth: standard
+importance: 4
 topics:
   - "SciML"
   - "Operator Learning"
-tags: []
+tags:
+  - "first-reading-queue"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2312.14688"

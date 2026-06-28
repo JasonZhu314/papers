@@ -6,13 +6,14 @@ authors: []
 year: 2015
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: queued
+depth: deep
+importance: 5
 topics:
   - "Foundations"
   - "Optimization for Deep Learning"
-tags: []
+tags:
+  - "first-reading-queue"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/1502.03167"

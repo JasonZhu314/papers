@@ -6,14 +6,15 @@ authors: []
 year: 2019
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: queued
+depth: deep
+importance: 5
 topics:
   - "SciML"
   - "Operator Learning"
   - "DeepONet"
-tags: []
+tags:
+  - "first-reading-queue"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/1910.03193"
