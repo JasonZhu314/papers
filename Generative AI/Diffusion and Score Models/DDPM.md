@@ -6,13 +6,15 @@ authors: []
 year: 2020
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: reading
+depth: deep
+importance: 5
 topics:
   - "Generative AI"
   - "Diffusion and Score Models"
-tags: []
+tags:
+  - "personal-reading-queue"
+  - "notes-needed"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2006.11239"

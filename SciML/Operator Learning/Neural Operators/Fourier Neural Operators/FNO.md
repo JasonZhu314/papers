@@ -6,7 +6,7 @@ authors: []
 year: 2020
 venue:
 paper_type: research
-status: queued
+status: reading
 depth: deep
 importance: 5
 topics:
@@ -16,6 +16,8 @@ topics:
   - "Fourier Neural Operators"
 tags:
   - "first-reading-queue"
+  - "personal-reading-queue"
+  - "notes-needed"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2010.08895"

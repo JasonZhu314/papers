@@ -6,21 +6,23 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: reading
+depth: standard
+importance: 4
 topics:
   - "SciML"
   - "Operator Learning"
   - "Neural Operators"
-  - "Fourier Neural Operators"
-tags: []
+  - "Graph Neural Operators"
+tags:
+  - "personal-reading-queue"
+  - "notes-needed"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2501.14475"
 doi:
 arxiv: "2501.14475v3"
-pdf: "_attachments/PDFs/SciML/Operator Learning/Neural Operators/Fourier Neural Operators/Point Cloud Neural Operator for Parametric PDEs on Complex and Variable Geometries.pdf"
+pdf: "_attachments/PDFs/SciML/Operator Learning/Neural Operators/Graph Neural Operators/Point Cloud Neural Operator for Parametric PDEs on Complex and Variable Geometries.pdf"
 date_added: 2026-06-24
 date_read:
 has_ideas: false
@@ -29,7 +31,7 @@ publish: true
 
 # Point Cloud Neural Operator for Parametric PDEs on Complex and Variable Geometries
 
-PDF: [[_attachments/PDFs/SciML/Operator Learning/Neural Operators/Fourier Neural Operators/Point Cloud Neural Operator for Parametric PDEs on Complex and Variable Geometries.pdf|Open PDF]]
+PDF: [[_attachments/PDFs/SciML/Operator Learning/Neural Operators/Graph Neural Operators/Point Cloud Neural Operator for Parametric PDEs on Complex and Variable Geometries.pdf|Open PDF]]
 
 ## Quick Recall
 

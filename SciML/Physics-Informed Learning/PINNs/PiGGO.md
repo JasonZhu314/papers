@@ -6,14 +6,15 @@ authors: []
 year: 2026
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: queued
+depth: standard
+importance: 4
 topics:
   - "SciML"
   - "Physics-Informed Learning"
   - "PINNs"
-tags: []
+tags:
+  - "personal-reading-queue"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2604.26593"

@@ -6,19 +6,20 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: queued
+depth: standard
+importance: 4
 topics:
-  - "LLMs"
-  - "Inference"
-tags: []
+  - "SciML"
+  - "Inverse Problems and Data Assimilation"
+tags:
+  - "personal-reading-queue"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2510.16004"
 doi:
 arxiv: "2510.16004v2"
-pdf: "_attachments/PDFs/LLMs/Inference/PAINT.pdf"
+pdf: "_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/PAINT.pdf"
 date_added: 2026-06-24
 date_read:
 has_ideas: false
@@ -27,7 +28,7 @@ publish: true
 
 # PAINT
 
-PDF: [[_attachments/PDFs/LLMs/Inference/PAINT.pdf|Open PDF]]
+PDF: [[_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/PAINT.pdf|Open PDF]]
 
 ## Quick Recall
 

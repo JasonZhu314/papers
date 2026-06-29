@@ -6,15 +6,16 @@ authors: []
 year: 2026
 venue:
 paper_type: research
-status: inbox
-depth: skim
-importance: 3
+status: queued
+depth: standard
+importance: 4
 topics:
   - "SciML"
   - "Operator Learning"
   - "Neural Operators"
   - "Graph Neural Operators"
-tags: []
+tags:
+  - "personal-reading-queue"
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2602.01498"
