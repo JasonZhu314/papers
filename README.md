@@ -22,20 +22,19 @@ Read these docs in order:
 ## Core Workflow
 
 1. Select a paper worth at least skimming.
-2. Add it to Zotero collection `Paper Reading` using the browser connector or identifier lookup.
-3. Let Better BibTeX update `_private/zotero/paper-reading.bib`.
-4. Create or update one Markdown note in the correct Obsidian topic folder.
-5. If a local PDF copy is useful, keep it under `_attachments/PDFs/<same path as note>.pdf`.
-6. Run Zotero metadata sync.
-7. Read with the right depth: `skim`, `standard`, `deep`, or `paper-with-code`.
-8. Let MOCs and dashboards collect notes from frontmatter.
+2. Create or update one Markdown note in the correct Obsidian topic folder.
+3. Fill the best available identifiers: `url`, `doi`, `arxiv`, and `pdf`.
+4. If a local PDF copy is useful, keep it under `_attachments/PDFs/<same path as note>.pdf`.
+5. Put near-term papers in `_dashboards/This Week.md`; keep passive placeholders as `status: library`.
+6. Read with the right depth: `skim`, `standard`, `deep`, or `paper-with-code`.
+7. When the paper becomes active or citation-relevant, add it to Zotero collection `Paper Reading` and sync metadata.
 
 ```powershell
 .\scripts\sync-zotero-metadata.ps1 -BibFile _private\zotero\paper-reading.bib
 .\scripts\sync-zotero-metadata.ps1 -BibFile _private\zotero\paper-reading.bib -Apply
 ```
 
-The first command is a dry run. The second fills safe bibliographic metadata.
+The first command is a dry run. The second fills safe bibliographic metadata after Zotero and Better BibTeX are set up. Zotero is useful, but it is not required before the first reading session.
 
 ## Depth Levels
 
@@ -46,11 +45,22 @@ The first command is a dry run. The second fills safe bibliographic metadata.
 
 ## Status Values
 
-- `inbox`: captured but not triaged.
+- `library`: collected placeholder, not part of the active reading workflow.
+- `inbox`: captured for near-term triage.
 - `queued`: selected for reading.
 - `reading`: actively being read.
 - `done`: note is good enough for its intended depth.
 - `archived`: kept for context but not active.
+
+## Downloaded PDF Quick Path
+
+If you downloaded a new paper PDF:
+
+1. Decide whether it is for this week or just collection.
+2. Put the PDF under `_attachments/PDFs/<topic path>/<paper title>.pdf`.
+3. Create or update one note in the matching topic folder.
+4. If reading this week, add the note to `_dashboards/This Week.md` and use the matching prompt from `_templates/Prompt - *.md`.
+5. If just collecting, leave it as `status: library` and do not add it to the weekly queue.
 
 ## Public Policy
 
@@ -73,5 +83,6 @@ Do not commit:
 - `_catalog/CATALOG.md`: folder taxonomy and placement rules.
 - `_catalog/METADATA.md`: required frontmatter conventions.
 - `_catalog/ZOTERO_AND_PUBLISHING.md`: how Zotero, BibTeX, PDFs, and GitHub fit together.
-- `_templates/`: note templates for skim, deep, and paper-with-code reading.
-- `_dashboards/`: Dataview dashboards for active reading and review.
+- `_templates/`: note templates and prompt templates for skim, standard, deep, and paper-with-code reading.
+- `_dashboards/This Week.md`: the only hand-maintained reading queue.
+- `_dashboards/Library Views.md`: generated Dataview review sections; do not maintain reading order there.

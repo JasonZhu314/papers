@@ -6,7 +6,7 @@ authors: []
 year: 2020
 venue:
 paper_type: research
-status: reading
+status: queued
 depth: deep
 importance: 5
 topics:
@@ -14,10 +14,7 @@ topics:
   - "Operator Learning"
   - "Neural Operators"
   - "Fourier Neural Operators"
-tags:
-  - "first-reading-queue"
-  - "personal-reading-queue"
-  - "notes-needed"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2010.08895"

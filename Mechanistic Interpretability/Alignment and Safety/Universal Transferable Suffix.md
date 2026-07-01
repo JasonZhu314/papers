@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Universal Transferable Suffix
 
-pdf: "_attachments/PDFs/Mechanistic Interpretability/Alignment and Safety/Universal Transferable Suffix.pdf"
+PDF: [[_attachments/PDFs/Mechanistic Interpretability/Alignment and Safety/Universal Transferable Suffix.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -26,7 +26,7 @@ publish: true
 
 # The Unreasonable Effectiveness of Mathematics in the Natural Sciences
 
-pdf: "_attachments/PDFs/Physics/The Unreasonable Effectiveness of Mathematics in the Natural Sciences.pdf"
+PDF: [[_attachments/PDFs/Physics/The Unreasonable Effectiveness of Mathematics in the Natural Sciences.pdf|Open PDF]]
 
 ## Quick Recall
 

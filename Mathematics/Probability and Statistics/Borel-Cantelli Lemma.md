@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Borel-Cantelli Lemma
 
-pdf: "_attachments/PDFs/Mathematics/Probability and Statistics/Borel-Cantelli Lemma.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Probability and Statistics/Borel-Cantelli Lemma.pdf|Open PDF]]
 
 ## Quick Recall
 

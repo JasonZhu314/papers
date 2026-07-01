@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # The Byzantine Generals Problem
 
-pdf: "_attachments/PDFs/Computer Science/Distributed Systems/The Byzantine Generals Problem.pdf"
+PDF: [[_attachments/PDFs/Computer Science/Distributed Systems/The Byzantine Generals Problem.pdf|Open PDF]]
 
 ## Quick Recall
 

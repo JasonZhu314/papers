@@ -6,7 +6,7 @@ authors: []
 year: 2018
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -29,7 +29,7 @@ publish: true
 
 # Efficient Attention
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/Efficient Attention.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/Efficient Attention.pdf|Open PDF]]
 
 ## Quick Recall
 

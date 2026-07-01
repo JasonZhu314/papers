@@ -6,7 +6,7 @@ authors: []
 year: 2021
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Bayesian imaging using Plug & Play priors
 
-pdf: "_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Bayesian imaging using Plug & Play priors.pdf"
+PDF: [[_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Bayesian imaging using Plug & Play priors.pdf|Open PDF]]
 
 ## Quick Recall
 

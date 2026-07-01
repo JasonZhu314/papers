@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # RNN based Language Model
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/RNN based Language Model.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/RNN based Language Model.pdf|Open PDF]]
 
 ## Quick Recall
 

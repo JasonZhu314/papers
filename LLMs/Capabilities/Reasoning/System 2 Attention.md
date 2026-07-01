@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # System 2 Attention
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Reasoning/System 2 Attention.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Reasoning/System 2 Attention.pdf|Open PDF]]
 
 ## Quick Recall
 

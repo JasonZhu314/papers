@@ -13,8 +13,7 @@ topics:
   - "Mathematics"
   - "Numerical Analysis"
   - "ODE Solvers"
-tags:
-  - "first-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url:
@@ -29,7 +28,7 @@ publish: true
 
 # Integration of Stiff Equations
 
-pdf: "_attachments/PDFs/Mathematics/Numerical Analysis/ODE Solvers/Integration of Stiff Equations.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Numerical Analysis/ODE Solvers/Integration of Stiff Equations.pdf|Open PDF]]
 
 ## Quick Recall
 

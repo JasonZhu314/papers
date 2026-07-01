@@ -14,8 +14,7 @@ topics:
   - "Operator Learning"
   - "Neural Operators"
   - "Graph Neural Operators"
-tags:
-  - "personal-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2604.15617"
@@ -30,7 +29,7 @@ publish: true
 
 # A Structure-Preserving Graph Neural Solver for Parametric Hyperbolic Conservation Laws
 
-pdf: "_attachments/PDFs/SciML/Operator Learning/Neural Operators/Graph Neural Operators/A Structure-Preserving Graph Neural Solver for Parametric Hyperbolic Conservation Laws.pdf"
+PDF: [[_attachments/PDFs/SciML/Operator Learning/Neural Operators/Graph Neural Operators/A Structure-Preserving Graph Neural Solver for Parametric Hyperbolic Conservation Laws.pdf|Open PDF]]
 
 ## Quick Recall
 

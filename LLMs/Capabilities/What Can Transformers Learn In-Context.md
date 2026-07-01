@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # What Can Transformers Learn In-Context
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/What Can Transformers Learn In-Context.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/What Can Transformers Learn In-Context.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Efficient Derivative-free Bayesian Inference for Large-Scale Inverse Problems
 
-pdf: "_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Efficient Derivative-free Bayesian Inference for Large-Scale Inverse Problems.pdf"
+PDF: [[_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Efficient Derivative-free Bayesian Inference for Large-Scale Inverse Problems.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2020
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Generative Modeling through SDE
 
-pdf: "_attachments/PDFs/Generative AI/Diffusion and Score Models/Generative Modeling through SDE.pdf"
+PDF: [[_attachments/PDFs/Generative AI/Diffusion and Score Models/Generative Modeling through SDE.pdf|Open PDF]]
 
 ## Quick Recall
 

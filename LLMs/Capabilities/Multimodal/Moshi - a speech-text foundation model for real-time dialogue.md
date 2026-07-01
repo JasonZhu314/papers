@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Moshi - a speech-text foundation model for real-time dialogue
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Multimodal/Moshi - a speech-text foundation model for real-time dialogue.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Multimodal/Moshi - a speech-text foundation model for real-time dialogue.pdf|Open PDF]]
 
 ## Quick Recall
 

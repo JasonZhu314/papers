@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Optimal Bounds for Open Addressing Without Reordering
 
-pdf: "_attachments/PDFs/Computer Science/Algorithms and Complexity/Optimal Bounds for Open Addressing Without Reordering.pdf"
+PDF: [[_attachments/PDFs/Computer Science/Algorithms and Complexity/Optimal Bounds for Open Addressing Without Reordering.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # LLaMa 2
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Model Reports/LLaMa 2.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Model Reports/LLaMa 2.pdf|Open PDF]]
 
 ## Quick Recall
 

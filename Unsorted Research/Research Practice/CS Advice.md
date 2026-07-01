@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # CS Advice
 
-pdf: "_attachments/PDFs/Unsorted Research/Research Practice/CS Advice.pdf"
+PDF: [[_attachments/PDFs/Unsorted Research/Research Practice/CS Advice.pdf|Open PDF]]
 
 ## Quick Recall
 

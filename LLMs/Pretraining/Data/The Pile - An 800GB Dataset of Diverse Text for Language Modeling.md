@@ -6,7 +6,7 @@ authors: []
 year: 2021
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # The Pile - An 800GB Dataset of Diverse Text for Language Modeling
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Data/The Pile - An 800GB Dataset of Diverse Text for Language Modeling.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Data/The Pile - An 800GB Dataset of Diverse Text for Language Modeling.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2016
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Why Deep Neural Networks for Function Approximation
 
-pdf: "_attachments/PDFs/SciML/Theory/Approximation/Why Deep Neural Networks for Function Approximation.pdf"
+PDF: [[_attachments/PDFs/SciML/Theory/Approximation/Why Deep Neural Networks for Function Approximation.pdf|Open PDF]]
 
 ## Quick Recall
 

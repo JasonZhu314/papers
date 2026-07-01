@@ -6,7 +6,7 @@ authors: []
 year: 2021
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Deduplicating Training Data Makes Language Models Better
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Data/Deduplicating Training Data Makes Language Models Better.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Data/Deduplicating Training Data Makes Language Models Better.pdf|Open PDF]]
 
 ## Quick Recall
 

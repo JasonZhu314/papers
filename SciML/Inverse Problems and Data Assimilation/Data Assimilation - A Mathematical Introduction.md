@@ -6,7 +6,7 @@ authors: []
 year: 2015
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Data Assimilation - A Mathematical Introduction
 
-pdf: "_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Data Assimilation - A Mathematical Introduction.pdf"
+PDF: [[_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Data Assimilation - A Mathematical Introduction.pdf|Open PDF]]
 
 ## Quick Recall
 

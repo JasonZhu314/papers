@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Why Functional Programming Matters
 
-pdf: "_attachments/PDFs/Computer Science/Programming Languages/Why Functional Programming Matters.pdf"
+PDF: [[_attachments/PDFs/Computer Science/Programming Languages/Why Functional Programming Matters.pdf|Open PDF]]
 
 ## Quick Recall
 

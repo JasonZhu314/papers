@@ -6,7 +6,7 @@ authors: []
 year: 2024
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -29,7 +29,7 @@ publish: true
 
 # Differential Transformer
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/Differential Transformer.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/Differential Transformer.pdf|Open PDF]]
 
 ## Quick Recall
 

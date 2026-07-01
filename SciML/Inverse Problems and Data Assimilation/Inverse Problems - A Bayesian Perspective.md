@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Inverse Problems - A Bayesian Perspective
 
-pdf: "_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Inverse Problems - A Bayesian Perspective.pdf"
+PDF: [[_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Inverse Problems - A Bayesian Perspective.pdf|Open PDF]]
 
 ## Quick Recall
 

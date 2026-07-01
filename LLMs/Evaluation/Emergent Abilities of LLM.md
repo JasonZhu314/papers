@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Emergent Abilities of LLM
 
-pdf: "_attachments/PDFs/LLMs/Evaluation/Emergent Abilities of LLM.pdf"
+PDF: [[_attachments/PDFs/LLMs/Evaluation/Emergent Abilities of LLM.pdf|Open PDF]]
 
 ## Quick Recall
 

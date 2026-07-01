@@ -6,7 +6,7 @@ authors: []
 year: 2015
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # RMSProp
 
-pdf: "_attachments/PDFs/Foundations/Optimization for Deep Learning/RMSProp.pdf"
+PDF: [[_attachments/PDFs/Foundations/Optimization for Deep Learning/RMSProp.pdf|Open PDF]]
 
 ## Quick Recall
 

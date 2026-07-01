@@ -6,7 +6,7 @@ authors: []
 year: 2010
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning
 
-pdf: "_attachments/PDFs/Reinforcement Learning and Control/RL Theory/A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning.pdf"
+PDF: [[_attachments/PDFs/Reinforcement Learning and Control/RL Theory/A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning.pdf|Open PDF]]
 
 ## Quick Recall
 

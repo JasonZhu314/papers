@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Fast Sampling of Diffusion Models via Operator Learning
 
-pdf: "_attachments/PDFs/SciML/Operator Learning/Neural Operators/Fast Sampling of Diffusion Models via Operator Learning.pdf"
+PDF: [[_attachments/PDFs/SciML/Operator Learning/Neural Operators/Fast Sampling of Diffusion Models via Operator Learning.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # LLMs are Human Level Prompt Engineers
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Reasoning/LLMs are Human Level Prompt Engineers.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Reasoning/LLMs are Human Level Prompt Engineers.pdf|Open PDF]]
 
 ## Quick Recall
 

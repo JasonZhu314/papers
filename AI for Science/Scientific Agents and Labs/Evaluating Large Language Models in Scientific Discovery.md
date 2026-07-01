@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Evaluating Large Language Models in Scientific Discovery
 
-pdf: "_attachments/PDFs/AI for Science/Scientific Agents and Labs/Evaluating Large Language Models in Scientific Discovery.pdf"
+PDF: [[_attachments/PDFs/AI for Science/Scientific Agents and Labs/Evaluating Large Language Models in Scientific Discovery.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -14,8 +14,7 @@ topics:
   - "Operator Learning"
   - "Neural Operators"
   - "Fourier Neural Operators"
-tags:
-  - "first-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url:

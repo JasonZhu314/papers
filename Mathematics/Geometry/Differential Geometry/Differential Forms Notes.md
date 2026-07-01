@@ -6,7 +6,7 @@ authors: []
 year: 2016
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Differential Forms Notes
 
-pdf: "_attachments/PDFs/Mathematics/Geometry/Differential Geometry/Differential Forms Notes.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Geometry/Differential Geometry/Differential Forms Notes.pdf|Open PDF]]
 
 ## Quick Recall
 

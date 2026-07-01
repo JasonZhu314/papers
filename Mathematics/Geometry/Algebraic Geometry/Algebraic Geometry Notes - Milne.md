@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Algebraic Geometry Notes - Milne
 
-pdf: "_attachments/PDFs/Mathematics/Geometry/Algebraic Geometry/Algebraic Geometry Notes - Milne.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Geometry/Algebraic Geometry/Algebraic Geometry Notes - Milne.pdf|Open PDF]]
 
 ## Quick Recall
 

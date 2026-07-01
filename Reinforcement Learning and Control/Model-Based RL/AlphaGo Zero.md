@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # AlphaGo Zero
 
-pdf: "_attachments/PDFs/Reinforcement Learning and Control/Model-Based RL/AlphaGo Zero.pdf"
+PDF: [[_attachments/PDFs/Reinforcement Learning and Control/Model-Based RL/AlphaGo Zero.pdf|Open PDF]]
 
 ## Quick Recall
 

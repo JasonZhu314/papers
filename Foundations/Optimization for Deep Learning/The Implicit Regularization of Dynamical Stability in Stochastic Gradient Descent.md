@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # The Implicit Regularization of Dynamical Stability in Stochastic Gradient Descent
 
-pdf: "_attachments/PDFs/Foundations/Optimization for Deep Learning/The Implicit Regularization of Dynamical Stability in Stochastic Gradient Descent.pdf"
+PDF: [[_attachments/PDFs/Foundations/Optimization for Deep Learning/The Implicit Regularization of Dynamical Stability in Stochastic Gradient Descent.pdf|Open PDF]]
 
 ## Quick Recall
 

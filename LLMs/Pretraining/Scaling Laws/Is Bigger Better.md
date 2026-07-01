@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Is Bigger Better
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Scaling Laws/Is Bigger Better.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Scaling Laws/Is Bigger Better.pdf|Open PDF]]
 
 ## Quick Recall
 

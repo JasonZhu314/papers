@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Transcending Scaling Laws
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Scaling Laws/Transcending Scaling Laws.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Scaling Laws/Transcending Scaling Laws.pdf|Open PDF]]
 
 ## Quick Recall
 

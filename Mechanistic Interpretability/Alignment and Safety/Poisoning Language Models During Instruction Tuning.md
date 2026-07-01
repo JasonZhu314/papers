@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Poisoning Language Models During Instruction Tuning
 
-pdf: "_attachments/PDFs/Mechanistic Interpretability/Alignment and Safety/Poisoning Language Models During Instruction Tuning.pdf"
+PDF: [[_attachments/PDFs/Mechanistic Interpretability/Alignment and Safety/Poisoning Language Models During Instruction Tuning.pdf|Open PDF]]
 
 ## Quick Recall
 

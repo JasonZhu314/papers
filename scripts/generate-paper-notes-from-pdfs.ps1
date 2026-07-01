@@ -4,7 +4,9 @@ param(
   [int]$TextPages = 2,
   [int]$Limit = 0,
   [switch]$Apply,
-  [switch]$Overwrite
+  [switch]$Overwrite,
+  [string]$DefaultStatus = 'library',
+  [int]$DefaultImportance = 1
 )
 
 Set-StrictMode -Version 2.0
@@ -147,7 +149,7 @@ function Get-LocalMetadata($pdf, $pdfInfoTool, $pdfTextTool, $textPages) {
   }
 }
 
-function New-PaperNoteContent($title, $topics, $pdfVaultPath, $metadata, $dateAdded) {
+function New-PaperNoteContent($title, $topics, $pdfVaultPath, $metadata, $dateAdded, $defaultStatus, $defaultImportance) {
   $pdfLink = '[[' + $pdfVaultPath + '|Open PDF]]'
   $topicItems = @($topics | Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
   if ($topicItems.Count -eq 0) {
@@ -168,9 +170,9 @@ function New-PaperNoteContent($title, $topics, $pdfVaultPath, $metadata, $dateAd
     $yearLine,
     'venue:',
     'paper_type: research',
-    'status: inbox',
+    ('status: {0}' -f $defaultStatus),
     'depth: skim',
-    'importance: 3'
+    ('importance: {0}' -f $defaultImportance)
   )
   $frontmatterAfterTopics = @(
     'tags: []',
@@ -236,7 +238,7 @@ function New-PaperNoteContent($title, $topics, $pdfVaultPath, $metadata, $dateAd
     '',
     '## Follow-Up',
     '',
-    '- [ ] Decide whether this should remain `skim`, become `standard`, or be promoted to `deep` / `paper-with-code`.',
+    '- [ ] If reading this week, add this note to `_dashboards/This Week.md` and set the intended depth.',
     ''
   )
   $content = $frontmatterBeforeTopics + $topicLines + $frontmatterAfterTopics
@@ -245,6 +247,9 @@ function New-PaperNoteContent($title, $topics, $pdfVaultPath, $metadata, $dateAd
 $root = (Resolve-Path -LiteralPath '.').Path
 $archiveFull = [System.IO.Path]::GetFullPath((Join-Path $root $ArchiveRoot))
 $reportFull = [System.IO.Path]::GetFullPath((Join-Path $root $ReportDir))
+$allowedStatuses = @('library', 'inbox', 'queued', 'reading', 'done', 'archived')
+if ($DefaultStatus -notin $allowedStatuses) { throw "DefaultStatus must be one of: $($allowedStatuses -join ', ')" }
+if ($DefaultImportance -lt 1 -or $DefaultImportance -gt 5) { throw 'DefaultImportance must be between 1 and 5.' }
 New-Directory $reportFull
 
 if (-not (Test-Path -LiteralPath $archiveFull)) {
@@ -302,7 +307,7 @@ foreach ($pdf in $pdfs) {
 
   if ($Apply -and ($action -eq 'would_create' -or $action -eq 'would_overwrite')) {
     New-Directory $noteDir
-    $content = New-PaperNoteContent $title $topics $relativePdfVault $metadata $dateAdded
+    $content = New-PaperNoteContent $title $topics $relativePdfVault $metadata $dateAdded $DefaultStatus $DefaultImportance
     [System.IO.File]::WriteAllText($notePath, [string]$content, [System.Text.UTF8Encoding]::new($false))
     if ($action -eq 'would_overwrite') {
       $updated++

@@ -6,7 +6,7 @@ authors: []
 year: 2020
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Learning to Simulate Complex Physics with Graph Networks
 
-pdf: "_attachments/PDFs/Graph and Geometric Learning/Molecular and Scientific Graphs/Learning to Simulate Complex Physics with Graph Networks.pdf"
+PDF: [[_attachments/PDFs/Graph and Geometric Learning/Molecular and Scientific Graphs/Learning to Simulate Complex Physics with Graph Networks.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2018
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Training Tips for Transformers
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Training Stability/Training Tips for Transformers.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Training Stability/Training Tips for Transformers.pdf|Open PDF]]
 
 ## Quick Recall
 

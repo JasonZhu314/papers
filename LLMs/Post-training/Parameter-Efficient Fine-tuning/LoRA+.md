@@ -6,7 +6,7 @@ authors: []
 year: 2024
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # LoRA+
 
-pdf: "_attachments/PDFs/LLMs/Post-training/Parameter-Efficient Fine-tuning/LoRA+.pdf"
+PDF: [[_attachments/PDFs/LLMs/Post-training/Parameter-Efficient Fine-tuning/LoRA+.pdf|Open PDF]]
 
 ## Quick Recall
 

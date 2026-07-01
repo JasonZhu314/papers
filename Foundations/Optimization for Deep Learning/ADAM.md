@@ -12,8 +12,7 @@ importance: 5
 topics:
   - "Foundations"
   - "Optimization for Deep Learning"
-tags:
-  - "first-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/1412.6980"

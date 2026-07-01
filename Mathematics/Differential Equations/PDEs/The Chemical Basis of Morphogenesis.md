@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # The Chemical Basis of Morphogenesis
 
-pdf: "_attachments/PDFs/Mathematics/Differential Equations/PDEs/The Chemical Basis of Morphogenesis.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Differential Equations/PDEs/The Chemical Basis of Morphogenesis.pdf|Open PDF]]
 
 ## Quick Recall
 

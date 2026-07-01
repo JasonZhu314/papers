@@ -6,7 +6,7 @@ authors: []
 year: 2021
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # On the Opportunities and Risks of Foundation Models
 
-pdf: "_attachments/PDFs/Mechanistic Interpretability/Alignment and Safety/On the Opportunities and Risks of Foundation Models.pdf"
+PDF: [[_attachments/PDFs/Mechanistic Interpretability/Alignment and Safety/On the Opportunities and Risks of Foundation Models.pdf|Open PDF]]
 
 ## Quick Recall
 

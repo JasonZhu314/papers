@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: reading
+status: queued
 depth: standard
 importance: 4
 topics:
@@ -14,9 +14,7 @@ topics:
   - "Operator Learning"
   - "Neural Operators"
   - "Graph Neural Operators"
-tags:
-  - "personal-reading-queue"
-  - "notes-needed"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2501.14475"

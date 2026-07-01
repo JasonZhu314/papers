@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Importance Resampling for Global Illumination
 
-pdf: "_attachments/PDFs/Computer Vision/3D Vision/Importance Resampling for Global Illumination.pdf"
+PDF: [[_attachments/PDFs/Computer Vision/3D Vision/Importance Resampling for Global Illumination.pdf|Open PDF]]
 
 ## Quick Recall
 

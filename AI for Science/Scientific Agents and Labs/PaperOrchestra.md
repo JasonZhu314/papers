@@ -6,7 +6,7 @@ authors: []
 year: 2026
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # PaperOrchestra
 
-pdf: "_attachments/PDFs/AI for Science/Scientific Agents and Labs/PaperOrchestra.pdf"
+PDF: [[_attachments/PDFs/AI for Science/Scientific Agents and Labs/PaperOrchestra.pdf|Open PDF]]
 
 ## Quick Recall
 

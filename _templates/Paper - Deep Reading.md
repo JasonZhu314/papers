@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: reading
+status: queued
 depth: deep
 importance: 4
 topics: []
@@ -134,4 +134,5 @@ publish: true
 
 ## Follow-Up
 
-- [ ] TODO
+- [ ] Set `status: reading` when the reading session starts.
+- [ ] Finalize deep note when the reconstruction, evidence, limitations, and reusable patterns are clear.

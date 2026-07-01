@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Are Emergent Abilities of Large Language Models a Mirage
 
-pdf: "_attachments/PDFs/LLMs/Evaluation/Are Emergent Abilities of Large Language Models a Mirage.pdf"
+PDF: [[_attachments/PDFs/LLMs/Evaluation/Are Emergent Abilities of Large Language Models a Mirage.pdf|Open PDF]]
 
 ## Quick Recall
 

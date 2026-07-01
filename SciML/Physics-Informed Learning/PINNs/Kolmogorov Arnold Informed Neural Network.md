@@ -6,7 +6,7 @@ authors: []
 year: 2024
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Kolmogorov Arnold Informed Neural Network
 
-pdf: "_attachments/PDFs/SciML/Physics-Informed Learning/PINNs/Kolmogorov Arnold Informed Neural Network.pdf"
+PDF: [[_attachments/PDFs/SciML/Physics-Informed Learning/PINNs/Kolmogorov Arnold Informed Neural Network.pdf|Open PDF]]
 
 ## Quick Recall
 

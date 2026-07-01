@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Prompt Engineering Through the Lens of Optimal Control
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Reasoning/Prompt Engineering Through the Lens of Optimal Control.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Reasoning/Prompt Engineering Through the Lens of Optimal Control.pdf|Open PDF]]
 
 ## Quick Recall
 

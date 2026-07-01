@@ -6,7 +6,7 @@ authors: []
 year: 2019
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -26,7 +26,7 @@ publish: true
 
 # Emergent Tool Use From Multi-Agent Autocurricula
 
-pdf: "_attachments/PDFs/Reinforcement Learning and Control/Emergent Tool Use From Multi-Agent Autocurricula.pdf"
+PDF: [[_attachments/PDFs/Reinforcement Learning and Control/Emergent Tool Use From Multi-Agent Autocurricula.pdf|Open PDF]]
 
 ## Quick Recall
 

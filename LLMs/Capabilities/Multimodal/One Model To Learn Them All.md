@@ -6,7 +6,7 @@ authors: []
 year: 2017
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # One Model To Learn Them All
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Multimodal/One Model To Learn Them All.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Multimodal/One Model To Learn Them All.pdf|Open PDF]]
 
 ## Quick Recall
 

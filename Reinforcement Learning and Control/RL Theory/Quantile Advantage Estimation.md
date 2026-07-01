@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Quantile Advantage Estimation
 
-pdf: "_attachments/PDFs/Reinforcement Learning and Control/RL Theory/Quantile Advantage Estimation.pdf"
+PDF: [[_attachments/PDFs/Reinforcement Learning and Control/RL Theory/Quantile Advantage Estimation.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # RefinedWeb
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Data/RefinedWeb.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Data/RefinedWeb.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # A Mathematical Perspective on ML
 
-pdf: "_attachments/PDFs/Foundations/Learning Theory/A Mathematical Perspective on ML.pdf"
+PDF: [[_attachments/PDFs/Foundations/Learning Theory/A Mathematical Perspective on ML.pdf|Open PDF]]
 
 ## Quick Recall
 

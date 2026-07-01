@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -29,7 +29,7 @@ publish: true
 
 # GQA
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/GQA.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/GQA.pdf|Open PDF]]
 
 ## Quick Recall
 

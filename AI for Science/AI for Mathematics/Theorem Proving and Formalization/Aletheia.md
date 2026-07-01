@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Aletheia
 
-pdf: "_attachments/PDFs/AI for Science/AI for Mathematics/Theorem Proving and Formalization/Aletheia.pdf"
+PDF: [[_attachments/PDFs/AI for Science/AI for Mathematics/Theorem Proving and Formalization/Aletheia.pdf|Open PDF]]
 
 ## Quick Recall
 

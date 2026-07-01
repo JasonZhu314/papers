@@ -6,7 +6,7 @@ authors: []
 year: 2024
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # GR2
 
-pdf: "_attachments/PDFs/Robotics and Embodied AI/Vision-Language-Action Models/GR2.pdf"
+PDF: [[_attachments/PDFs/Robotics and Embodied AI/Vision-Language-Action Models/GR2.pdf|Open PDF]]
 
 ## Quick Recall
 

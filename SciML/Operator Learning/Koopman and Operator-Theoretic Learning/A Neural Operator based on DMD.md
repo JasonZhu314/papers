@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # A Neural Operator based on DMD
 
-pdf: "_attachments/PDFs/SciML/Operator Learning/Koopman and Operator-Theoretic Learning/A Neural Operator based on DMD.pdf"
+PDF: [[_attachments/PDFs/SciML/Operator Learning/Koopman and Operator-Theoretic Learning/A Neural Operator based on DMD.pdf|Open PDF]]
 
 ## Quick Recall
 

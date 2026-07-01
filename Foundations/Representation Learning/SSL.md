@@ -6,7 +6,7 @@ authors: []
 year: 2021
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # SSL
 
-pdf: "_attachments/PDFs/Foundations/Representation Learning/SSL.pdf"
+PDF: [[_attachments/PDFs/Foundations/Representation Learning/SSL.pdf|Open PDF]]
 
 ## Quick Recall
 

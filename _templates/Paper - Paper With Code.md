@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: reading
+status: queued
 depth: paper-with-code
 importance: 5
 topics: []
@@ -93,4 +93,5 @@ publish: true
 
 ## Follow-Up
 
-- [ ] TODO
+- [ ] Set `status: reading` when the reading session starts.
+- [ ] Finalize the note when the paper understanding and implementation status are clear.

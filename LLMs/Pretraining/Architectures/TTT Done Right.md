@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # TTT Done Right
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/TTT Done Right.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/TTT Done Right.pdf|Open PDF]]
 
 ## Quick Recall
 

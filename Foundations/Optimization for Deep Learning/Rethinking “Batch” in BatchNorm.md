@@ -6,7 +6,7 @@ authors: []
 year: 2021
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Rethinking “Batch” in BatchNorm
 
-pdf: "_attachments/PDFs/Foundations/Optimization for Deep Learning/Rethinking “Batch” in BatchNorm.pdf"
+PDF: [[_attachments/PDFs/Foundations/Optimization for Deep Learning/Rethinking “Batch” in BatchNorm.pdf|Open PDF]]
 
 ## Quick Recall
 

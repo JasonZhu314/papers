@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Differential Forms and Integration
 
-pdf: "_attachments/PDFs/Mathematics/Geometry/Differential Geometry/Differential Forms and Integration.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Geometry/Differential Geometry/Differential Forms and Integration.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # How to Read a Paper
 
-pdf: "_attachments/PDFs/Unsorted Research/Research Practice/How to Read a Paper.pdf"
+PDF: [[_attachments/PDFs/Unsorted Research/Research Practice/How to Read a Paper.pdf|Open PDF]]
 
 ## Quick Recall
 

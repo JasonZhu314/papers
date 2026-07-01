@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Ignorance of Interaction Programming Is Killing People
 
-pdf: "_attachments/PDFs/Computer Science/Programming Languages/Ignorance of Interaction Programming Is Killing People.pdf"
+PDF: [[_attachments/PDFs/Computer Science/Programming Languages/Ignorance of Interaction Programming Is Killing People.pdf|Open PDF]]
 
 ## Quick Recall
 

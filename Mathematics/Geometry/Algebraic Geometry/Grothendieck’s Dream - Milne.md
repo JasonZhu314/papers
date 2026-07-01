@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Grothendieck’s Dream - Milne
 
-pdf: "_attachments/PDFs/Mathematics/Geometry/Algebraic Geometry/Grothendieck’s Dream - Milne.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Geometry/Algebraic Geometry/Grothendieck’s Dream - Milne.pdf|Open PDF]]
 
 ## Quick Recall
 

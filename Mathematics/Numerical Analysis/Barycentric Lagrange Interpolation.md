@@ -12,8 +12,7 @@ importance: 4
 topics:
   - "Mathematics"
   - "Numerical Analysis"
-tags:
-  - "first-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url:

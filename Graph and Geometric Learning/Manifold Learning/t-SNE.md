@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # t-SNE
 
-pdf: "_attachments/PDFs/Graph and Geometric Learning/Manifold Learning/t-SNE.pdf"
+PDF: [[_attachments/PDFs/Graph and Geometric Learning/Manifold Learning/t-SNE.pdf|Open PDF]]
 
 ## Quick Recall
 

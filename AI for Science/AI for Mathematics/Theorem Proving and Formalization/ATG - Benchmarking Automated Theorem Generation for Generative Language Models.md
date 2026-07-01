@@ -6,7 +6,7 @@ authors: []
 year: 2024
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # ATG - Benchmarking Automated Theorem Generation for Generative Language Models
 
-pdf: "_attachments/PDFs/AI for Science/AI for Mathematics/Theorem Proving and Formalization/ATG - Benchmarking Automated Theorem Generation for Generative Language Models.pdf"
+PDF: [[_attachments/PDFs/AI for Science/AI for Mathematics/Theorem Proving and Formalization/ATG - Benchmarking Automated Theorem Generation for Generative Language Models.pdf|Open PDF]]
 
 ## Quick Recall
 

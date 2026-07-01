@@ -11,7 +11,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics: []
@@ -38,7 +38,7 @@ publish: true
 - `authors`: author list or shortened author string.
 - `year`: publication or preprint year.
 - `venue`: venue, arXiv, workshop, journal, or unknown.
-- `status`: `inbox`, `queued`, `reading`, `done`, or `archived`.
+- `status`: `library`, `inbox`, `queued`, `reading`, `done`, or `archived`. Use `library` for passive collected placeholders and `inbox` only for near-term triage.
 - `depth`: `skim`, `standard`, `deep`, or `paper-with-code`.
 - `importance`: 1 to 5, where 5 means foundational or directly central.
 - `topics`: MOC-facing topic names, such as `SciML`, `Operator Learning`, or `LLMs`.

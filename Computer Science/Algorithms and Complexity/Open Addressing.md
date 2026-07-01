@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Open Addressing
 
-pdf: "_attachments/PDFs/Computer Science/Algorithms and Complexity/Open Addressing.pdf"
+PDF: [[_attachments/PDFs/Computer Science/Algorithms and Complexity/Open Addressing.pdf|Open PDF]]
 
 ## Quick Recall
 

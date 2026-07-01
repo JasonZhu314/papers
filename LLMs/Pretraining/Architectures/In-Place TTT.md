@@ -6,7 +6,7 @@ authors: []
 year: 2026
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # In-Place TTT
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/In-Place TTT.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/In-Place TTT.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2020
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # SNN
 
-pdf: "_attachments/PDFs/Foundations/Representation Learning/SNN.pdf"
+PDF: [[_attachments/PDFs/Foundations/Representation Learning/SNN.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Language Models are Unsupervised Multitask Learners - GPT2
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Model Reports/Language Models are Unsupervised Multitask Learners - GPT2.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Model Reports/Language Models are Unsupervised Multitask Learners - GPT2.pdf|Open PDF]]
 
 ## Quick Recall
 

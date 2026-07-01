@@ -13,8 +13,7 @@ topics:
   - "SciML"
   - "Operator Learning"
   - "DeepONet"
-tags:
-  - "first-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/1910.03193"

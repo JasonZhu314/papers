@@ -6,7 +6,7 @@ authors: []
 year: 2018
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -29,7 +29,7 @@ publish: true
 
 # Self-Attention with Relative Position Representations
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/Self-Attention with Relative Position Representations.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/Self-Attention with Relative Position Representations.pdf|Open PDF]]
 
 ## Quick Recall
 

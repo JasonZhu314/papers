@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Open Problems in RLHF
 
-pdf: "_attachments/PDFs/LLMs/Post-training/RLHF and RLAIF/Open Problems in RLHF.pdf"
+PDF: [[_attachments/PDFs/LLMs/Post-training/RLHF and RLAIF/Open Problems in RLHF.pdf|Open PDF]]
 
 ## Quick Recall
 

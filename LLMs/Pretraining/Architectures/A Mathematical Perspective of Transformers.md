@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # A Mathematical Perspective of Transformers
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/A Mathematical Perspective of Transformers.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/A Mathematical Perspective of Transformers.pdf|Open PDF]]
 
 ## Quick Recall
 

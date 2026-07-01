@@ -6,7 +6,7 @@ authors: []
 year: 2026
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Emergent Introspective Awareness in Large Language Models
 
-pdf: "_attachments/PDFs/Mechanistic Interpretability/Model Internals and Probing/Emergent Introspective Awareness in Large Language Models.pdf"
+PDF: [[_attachments/PDFs/Mechanistic Interpretability/Model Internals and Probing/Emergent Introspective Awareness in Large Language Models.pdf|Open PDF]]
 
 ## Quick Recall
 

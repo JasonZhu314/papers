@@ -6,7 +6,7 @@ authors: []
 year: 2024
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Open Problems in LLM Agents
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Tool Use and Agents/Open Problems in LLM Agents.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Tool Use and Agents/Open Problems in LLM Agents.pdf|Open PDF]]
 
 ## Quick Recall
 

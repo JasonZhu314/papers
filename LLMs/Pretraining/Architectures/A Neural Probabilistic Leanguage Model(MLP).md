@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # A Neural Probabilistic Leanguage Model(MLP)
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/A Neural Probabilistic Leanguage Model(MLP).pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/A Neural Probabilistic Leanguage Model(MLP).pdf|Open PDF]]
 
 ## Quick Recall
 

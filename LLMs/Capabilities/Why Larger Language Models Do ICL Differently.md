@@ -6,7 +6,7 @@ authors: []
 year: 2024
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Why Larger Language Models Do ICL Differently
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Why Larger Language Models Do ICL Differently.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Why Larger Language Models Do ICL Differently.pdf|Open PDF]]
 
 ## Quick Recall
 

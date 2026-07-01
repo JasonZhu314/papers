@@ -6,7 +6,7 @@ authors: []
 year: 2020
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Deep Learning Gauss-Manin Connections
 
-pdf: "_attachments/PDFs/AI for Science/AI for Mathematics/Mathematical Discovery/Deep Learning Gauss-Manin Connections.pdf"
+PDF: [[_attachments/PDFs/AI for Science/AI for Mathematics/Mathematical Discovery/Deep Learning Gauss-Manin Connections.pdf|Open PDF]]
 
 ## Quick Recall
 

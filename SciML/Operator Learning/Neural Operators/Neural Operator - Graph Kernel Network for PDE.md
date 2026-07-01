@@ -13,8 +13,7 @@ topics:
   - "SciML"
   - "Operator Learning"
   - "Neural Operators"
-tags:
-  - "first-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2003.03485"

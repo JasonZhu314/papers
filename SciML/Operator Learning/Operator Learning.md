@@ -12,8 +12,7 @@ importance: 4
 topics:
   - "SciML"
   - "Operator Learning"
-tags:
-  - "first-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2312.14688"
@@ -28,7 +27,7 @@ publish: true
 
 # Operator Learning
 
-pdf: "_attachments/PDFs/SciML/Operator Learning/Operator Learning.pdf"
+PDF: [[_attachments/PDFs/SciML/Operator Learning/Operator Learning.pdf|Open PDF]]
 
 ## Quick Recall
 

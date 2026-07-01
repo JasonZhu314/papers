@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # DoReMi
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Data/DoReMi.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Data/DoReMi.pdf|Open PDF]]
 
 ## Quick Recall
 

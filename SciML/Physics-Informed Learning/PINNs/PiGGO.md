@@ -13,8 +13,7 @@ topics:
   - "SciML"
   - "Physics-Informed Learning"
   - "PINNs"
-tags:
-  - "personal-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2604.26593"

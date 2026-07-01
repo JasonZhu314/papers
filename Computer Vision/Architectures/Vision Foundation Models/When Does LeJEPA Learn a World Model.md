@@ -6,7 +6,7 @@ authors: []
 year: 2026
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # When Does LeJEPA Learn a World Model
 
-pdf: "_attachments/PDFs/Computer Vision/Architectures/Vision Foundation Models/When Does LeJEPA Learn a World Model.pdf"
+PDF: [[_attachments/PDFs/Computer Vision/Architectures/Vision Foundation Models/When Does LeJEPA Learn a World Model.pdf|Open PDF]]
 
 ## Quick Recall
 

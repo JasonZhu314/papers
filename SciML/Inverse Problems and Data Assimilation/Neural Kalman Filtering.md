@@ -6,7 +6,7 @@ authors: []
 year: 2021
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Neural Kalman Filtering
 
-pdf: "_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Neural Kalman Filtering.pdf"
+PDF: [[_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Neural Kalman Filtering.pdf|Open PDF]]
 
 ## Quick Recall
 

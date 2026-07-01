@@ -6,7 +6,7 @@ authors: []
 year: 2016
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Understanding deep learning requires rethinking generalization
 
-pdf: "_attachments/PDFs/Foundations/Learning Theory/Understanding deep learning requires rethinking generalization.pdf"
+PDF: [[_attachments/PDFs/Foundations/Learning Theory/Understanding deep learning requires rethinking generalization.pdf|Open PDF]]
 
 ## Quick Recall
 

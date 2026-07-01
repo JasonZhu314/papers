@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # ReAct
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Tool Use and Agents/ReAct.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Tool Use and Agents/ReAct.pdf|Open PDF]]
 
 ## Quick Recall
 

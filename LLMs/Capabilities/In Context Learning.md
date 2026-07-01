@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # In Context Learning
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/In Context Learning.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/In Context Learning.pdf|Open PDF]]
 
 ## Quick Recall
 

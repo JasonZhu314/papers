@@ -6,7 +6,7 @@ authors: []
 year: 2017
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Program Induction by Rationale Generation
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Reasoning/Program Induction by Rationale Generation.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Reasoning/Program Induction by Rationale Generation.pdf|Open PDF]]
 
 ## Quick Recall
 

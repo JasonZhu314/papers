@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Mean-Field Dynamics of Transformers
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/Mean-Field Dynamics of Transformers.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/Mean-Field Dynamics of Transformers.pdf|Open PDF]]
 
 ## Quick Recall
 

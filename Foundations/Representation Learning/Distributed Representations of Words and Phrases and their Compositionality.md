@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Distributed Representations of Words and Phrases and their Compositionality
 
-pdf: "_attachments/PDFs/Foundations/Representation Learning/Distributed Representations of Words and Phrases and their Compositionality.pdf"
+PDF: [[_attachments/PDFs/Foundations/Representation Learning/Distributed Representations of Words and Phrases and their Compositionality.pdf|Open PDF]]
 
 ## Quick Recall
 

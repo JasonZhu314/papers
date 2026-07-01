@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: done
+status: queued
 depth: skim
 importance: 2
 topics: []
@@ -71,4 +71,5 @@ publish: true
 
 ## Follow-Up
 
-- [ ] TODO
+- [ ] Set `status: reading` when the reading session starts.
+- [ ] Finalize skim note and decide whether to stop, continue at standard depth, or archive.

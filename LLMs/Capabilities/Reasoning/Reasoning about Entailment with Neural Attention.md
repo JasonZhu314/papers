@@ -6,7 +6,7 @@ authors: []
 year: 2015
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Reasoning about Entailment with Neural Attention
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Reasoning/Reasoning about Entailment with Neural Attention.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Reasoning/Reasoning about Entailment with Neural Attention.pdf|Open PDF]]
 
 ## Quick Recall
 

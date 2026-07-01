@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Program-of-Thoughts Prompting
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Reasoning/Program-of-Thoughts Prompting.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Reasoning/Program-of-Thoughts Prompting.pdf|Open PDF]]
 
 ## Quick Recall
 

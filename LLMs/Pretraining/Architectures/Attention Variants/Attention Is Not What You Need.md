@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -29,7 +29,7 @@ publish: true
 
 # Attention Is Not What You Need
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/Attention Is Not What You Need.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/Attention Variants/Attention Is Not What You Need.pdf|Open PDF]]
 
 ## Quick Recall
 

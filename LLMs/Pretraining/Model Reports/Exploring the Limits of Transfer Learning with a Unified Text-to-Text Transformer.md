@@ -6,7 +6,7 @@ authors: []
 year: 2019
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Model Reports/Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Model Reports/Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.pdf|Open PDF]]
 
 ## Quick Recall
 

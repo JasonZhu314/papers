@@ -6,7 +6,7 @@ authors: []
 year: 2018
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Inverse Problems and Data Assimilation
 
-pdf: "_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Inverse Problems and Data Assimilation.pdf"
+PDF: [[_attachments/PDFs/SciML/Inverse Problems and Data Assimilation/Inverse Problems and Data Assimilation.pdf|Open PDF]]
 
 ## Quick Recall
 

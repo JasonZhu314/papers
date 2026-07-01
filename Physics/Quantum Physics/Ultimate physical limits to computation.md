@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Ultimate physical limits to computation
 
-pdf: "_attachments/PDFs/Physics/Quantum Physics/Ultimate physical limits to computation.pdf"
+PDF: [[_attachments/PDFs/Physics/Quantum Physics/Ultimate physical limits to computation.pdf|Open PDF]]
 
 ## Quick Recall
 

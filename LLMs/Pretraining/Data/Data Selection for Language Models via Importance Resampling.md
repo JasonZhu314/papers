@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Data Selection for Language Models via Importance Resampling
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Data/Data Selection for Language Models via Importance Resampling.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Data/Data Selection for Language Models via Importance Resampling.pdf|Open PDF]]
 
 ## Quick Recall
 

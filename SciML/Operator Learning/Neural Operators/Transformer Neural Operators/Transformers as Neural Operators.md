@@ -6,7 +6,7 @@ authors: []
 year: 2024
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -29,7 +29,7 @@ publish: true
 
 # Transformers as Neural Operators
 
-pdf: "_attachments/PDFs/SciML/Operator Learning/Neural Operators/Transformer Neural Operators/Transformers as Neural Operators.pdf"
+PDF: [[_attachments/PDFs/SciML/Operator Learning/Neural Operators/Transformer Neural Operators/Transformers as Neural Operators.pdf|Open PDF]]
 
 ## Quick Recall
 

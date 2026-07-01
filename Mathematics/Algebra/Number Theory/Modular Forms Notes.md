@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Modular Forms Notes
 
-pdf: "_attachments/PDFs/Mathematics/Algebra/Number Theory/Modular Forms Notes.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Algebra/Number Theory/Modular Forms Notes.pdf|Open PDF]]
 
 ## Quick Recall
 

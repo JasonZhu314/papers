@@ -6,7 +6,7 @@ authors: []
 year: 2026
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Semi-Autonomous Mathematics Discovery with Gemini
 
-pdf: "_attachments/PDFs/AI for Science/AI for Mathematics/Mathematical Discovery/Semi-Autonomous Mathematics Discovery with Gemini.pdf"
+PDF: [[_attachments/PDFs/AI for Science/AI for Mathematics/Mathematical Discovery/Semi-Autonomous Mathematics Discovery with Gemini.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -13,8 +13,7 @@ topics:
   - "SciML"
   - "Operator Learning"
   - "Neural Operators"
-tags:
-  - "first-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url:
@@ -29,7 +28,7 @@ publish: true
 
 # Neural Operator
 
-pdf: "_attachments/PDFs/SciML/Operator Learning/Neural Operators/Neural Operator.pdf"
+PDF: [[_attachments/PDFs/SciML/Operator Learning/Neural Operators/Neural Operator.pdf|Open PDF]]
 
 ## Quick Recall
 

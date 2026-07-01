@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # The Heritage of Escher
 
-pdf: "_attachments/PDFs/Mathematics/Geometry/The Heritage of Escher.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Geometry/The Heritage of Escher.pdf|Open PDF]]
 
 ## Quick Recall
 

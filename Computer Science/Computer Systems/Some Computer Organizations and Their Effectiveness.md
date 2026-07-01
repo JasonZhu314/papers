@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Some Computer Organizations and Their Effectiveness
 
-pdf: "_attachments/PDFs/Computer Science/Computer Systems/Some Computer Organizations and Their Effectiveness.pdf"
+PDF: [[_attachments/PDFs/Computer Science/Computer Systems/Some Computer Organizations and Their Effectiveness.pdf|Open PDF]]
 
 ## Quick Recall
 

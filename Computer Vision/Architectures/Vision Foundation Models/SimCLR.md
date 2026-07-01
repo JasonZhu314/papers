@@ -6,7 +6,7 @@ authors: []
 year: 2020
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # SimCLR
 
-pdf: "_attachments/PDFs/Computer Vision/Architectures/Vision Foundation Models/SimCLR.pdf"
+PDF: [[_attachments/PDFs/Computer Vision/Architectures/Vision Foundation Models/SimCLR.pdf|Open PDF]]
 
 ## Quick Recall
 

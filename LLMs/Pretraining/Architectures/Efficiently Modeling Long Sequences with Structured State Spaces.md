@@ -6,7 +6,7 @@ authors: []
 year: 2021
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Efficiently Modeling Long Sequences with Structured State Spaces
 
-pdf: "_attachments/PDFs/LLMs/Pretraining/Architectures/Efficiently Modeling Long Sequences with Structured State Spaces.pdf"
+PDF: [[_attachments/PDFs/LLMs/Pretraining/Architectures/Efficiently Modeling Long Sequences with Structured State Spaces.pdf|Open PDF]]
 
 ## Quick Recall
 

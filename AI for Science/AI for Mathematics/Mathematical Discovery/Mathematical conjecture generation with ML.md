@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Mathematical conjecture generation with ML
 
-pdf: "_attachments/PDFs/AI for Science/AI for Mathematics/Mathematical Discovery/Mathematical conjecture generation with ML.pdf"
+PDF: [[_attachments/PDFs/AI for Science/AI for Mathematics/Mathematical Discovery/Mathematical conjecture generation with ML.pdf|Open PDF]]
 
 ## Quick Recall
 

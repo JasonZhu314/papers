@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Not what you’ve signed up for - Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection
 
-pdf: "_attachments/PDFs/Mechanistic Interpretability/Alignment and Safety/Not what you’ve signed up for - Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection.pdf"
+PDF: [[_attachments/PDFs/Mechanistic Interpretability/Alignment and Safety/Not what you’ve signed up for - Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year:
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -26,7 +26,7 @@ publish: true
 
 # Welcome to the Era of Experience
 
-pdf: "_attachments/PDFs/Reinforcement Learning and Control/Welcome to the Era of Experience.pdf"
+PDF: [[_attachments/PDFs/Reinforcement Learning and Control/Welcome to the Era of Experience.pdf|Open PDF]]
 
 ## Quick Recall
 

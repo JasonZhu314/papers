@@ -2,7 +2,7 @@
 
 ## Decision
 
-Zotero owns bibliographic identity. Obsidian owns understanding.
+Zotero owns bibliographic identity once a paper is active or citation-relevant. Obsidian owns understanding from the first note.
 
 - Zotero: bibliographic metadata, citation keys, item keys, DOI/arXiv links, canonical PDFs, and bibliography exports.
 - Obsidian: paper memory, problem/method/experiment notes, synthesis, reading status, importance, topics, MOCs, and ideas.
@@ -34,19 +34,18 @@ PDFs are ignored by git. There are two acceptable local modes:
 - Linked-file mode: Zotero items point to PDFs under `_attachments/PDFs/...`.
 - Stored-file mode: Zotero stores PDFs in its own storage directory, while Obsidian notes keep `pdf:` paths only when a local copy exists.
 
-For this vault, linked-file mode is the lowest-friction choice because Obsidian links already point into `_attachments/PDFs/...`. Zotero still owns metadata and citation keys.
+For this vault, linked-file mode is the lowest-friction choice because Obsidian links already point into `_attachments/PDFs/...`. Zotero still owns curated metadata and citation keys once the paper is imported.
 
 ## Daily Reading Workflow
 
 ### New Paper From The Web
 
 1. Open the paper abstract page, not just the raw PDF, when possible.
-2. Click the Zotero browser connector.
-3. Check title, authors, year, venue, DOI, and arXiv ID once.
-4. Put the item in the `Paper Reading` collection.
-5. Let Better BibTeX update `_private/zotero/paper-reading.bib`.
-6. Create or sync the Obsidian note.
-7. Read and write the actual understanding in Obsidian.
+2. Create or update the Obsidian note and local PDF link.
+3. Fill DOI/arXiv/URL from the source page when available.
+4. Read and write the actual understanding in Obsidian.
+5. When the paper becomes active, important, or citation-relevant, add it to Zotero, put it in `Paper Reading`, and let Better BibTeX update `_private/zotero/paper-reading.bib`.
+6. Run metadata sync from this repository.
 
 ### Existing Imported PDFs
 
@@ -145,7 +144,7 @@ The Zotero collection is not expected to mirror the 800+ PDFs already in this re
 
 Recommended Zotero structure:
 
-- `Paper Reading`: all papers that have entered the reading system.
+- `Paper Reading`: active, important, or citation-relevant papers whose bibliographic identity should be curated.
 - `Legacy Import Review`: temporary collection for old PDFs being cleaned up.
 - Optional coarse collections: `SciML`, `LLMs`, `Mathematics`, `AI for Science`, `Computer Vision`.
 
@@ -155,14 +154,13 @@ Do not recreate every Obsidian folder in Zotero. Obsidian's folder tree and `top
 
 When you encounter a new paper online, prefer this order:
 
-1. Save the paper to Zotero from the abstract, arXiv, DOI, or publisher page using the Zotero Connector.
-2. Put the item in `Paper Reading`.
-3. Check title, authors, year, venue, DOI/arXiv, and citation key.
-4. Decide whether you need a local Obsidian PDF copy.
-5. If yes, place the PDF under `_attachments/PDFs/<same path as note>.pdf`.
-6. Create/sync the Obsidian note.
+1. Create or update the Obsidian note.
+2. Fill DOI/arXiv/URL from the abstract, arXiv, DOI, or publisher page.
+3. Decide whether you need a local Obsidian PDF copy.
+4. If yes, place the PDF under `_attachments/PDFs/<same path as note>.pdf`.
+5. If the paper becomes active, important, or citation-relevant, save it to Zotero from the source page, put it in `Paper Reading`, and sync metadata.
 
-If you already downloaded the PDF first, add the paper to Zotero anyway. The PDF file and the Zotero metadata item are different responsibilities.
+If you already downloaded the PDF first, keep the PDF and note usable immediately. Add the paper to Zotero when its identity needs to be curated.
 
 ## Importing Existing PDFs Into Zotero
 

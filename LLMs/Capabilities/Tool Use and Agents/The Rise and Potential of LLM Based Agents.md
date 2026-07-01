@@ -6,7 +6,7 @@ authors: []
 year: 2023
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # The Rise and Potential of LLM Based Agents
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Tool Use and Agents/The Rise and Potential of LLM Based Agents.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Tool Use and Agents/The Rise and Potential of LLM Based Agents.pdf|Open PDF]]
 
 ## Quick Recall
 

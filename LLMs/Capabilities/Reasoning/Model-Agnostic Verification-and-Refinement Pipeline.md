@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Model-Agnostic Verification-and-Refinement Pipeline
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Reasoning/Model-Agnostic Verification-and-Refinement Pipeline.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Reasoning/Model-Agnostic Verification-and-Refinement Pipeline.pdf|Open PDF]]
 
 ## Quick Recall
 

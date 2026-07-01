@@ -6,7 +6,7 @@ authors: []
 year: 2022
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Inner Monologue
 
-pdf: "_attachments/PDFs/Robotics and Embodied AI/Vision-Language-Action Models/Inner Monologue.pdf"
+PDF: [[_attachments/PDFs/Robotics and Embodied AI/Vision-Language-Action Models/Inner Monologue.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2018
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Deep Neural Networks Motivated by PDEs
 
-pdf: "_attachments/PDFs/SciML/Neural Differential Equations/Deep Neural Networks Motivated by PDEs.pdf"
+PDF: [[_attachments/PDFs/SciML/Neural Differential Equations/Deep Neural Networks Motivated by PDEs.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -12,8 +12,7 @@ importance: 4
 topics:
   - "SciML"
   - "Inverse Problems and Data Assimilation"
-tags:
-  - "personal-reading-queue"
+tags: []
 citation_key:
 zotero_key:
 url: "https://arxiv.org/abs/2603.06752"

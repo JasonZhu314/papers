@@ -6,7 +6,7 @@ authors: []
 year: 2018
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Generating Wikipedia by Summarizing Long Sequences
 
-pdf: "_attachments/PDFs/LLMs/Capabilities/Long Context/Generating Wikipedia by Summarizing Long Sequences.pdf"
+PDF: [[_attachments/PDFs/LLMs/Capabilities/Long Context/Generating Wikipedia by Summarizing Long Sequences.pdf|Open PDF]]
 
 ## Quick Recall
 

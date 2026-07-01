@@ -6,7 +6,7 @@ authors: []
 year: 2026
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Resummation of the C-Parameter Sudakov Shoulder Using Effective Field Theory
 
-pdf: "_attachments/PDFs/Physics/Quantum Physics/Resummation of the C-Parameter Sudakov Shoulder Using Effective Field Theory.pdf"
+PDF: [[_attachments/PDFs/Physics/Quantum Physics/Resummation of the C-Parameter Sudakov Shoulder Using Effective Field Theory.pdf|Open PDF]]
 
 ## Quick Recall
 

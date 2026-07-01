@@ -6,7 +6,7 @@ authors: []
 year: 2018
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # Double Descent
 
-pdf: "_attachments/PDFs/Foundations/Learning Theory/Double Descent.pdf"
+PDF: [[_attachments/PDFs/Foundations/Learning Theory/Double Descent.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2025
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # LeJEPA
 
-pdf: "_attachments/PDFs/Computer Vision/Architectures/Vision Foundation Models/LeJEPA.pdf"
+PDF: [[_attachments/PDFs/Computer Vision/Architectures/Vision Foundation Models/LeJEPA.pdf|Open PDF]]
 
 ## Quick Recall
 

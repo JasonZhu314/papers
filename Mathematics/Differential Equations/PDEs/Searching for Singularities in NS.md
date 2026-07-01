@@ -6,7 +6,7 @@ authors: []
 year: 2019
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -28,7 +28,7 @@ publish: true
 
 # Searching for Singularities in NS
 
-pdf: "_attachments/PDFs/Mathematics/Differential Equations/PDEs/Searching for Singularities in NS.pdf"
+PDF: [[_attachments/PDFs/Mathematics/Differential Equations/PDEs/Searching for Singularities in NS.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -6,7 +6,7 @@ authors: []
 year: 2018
 venue:
 paper_type: research
-status: inbox
+status: library
 depth: skim
 importance: 3
 topics:
@@ -27,7 +27,7 @@ publish: true
 
 # UMAP
 
-pdf: "_attachments/PDFs/Graph and Geometric Learning/Manifold Learning/UMAP.pdf"
+PDF: [[_attachments/PDFs/Graph and Geometric Learning/Manifold Learning/UMAP.pdf|Open PDF]]
 
 ## Quick Recall
 
