@@ -71,5 +71,6 @@ publish: true
 
 ## Follow-Up
 
-- [ ] Set `status: reading` when the reading session starts.
-- [ ] Finalize skim note and decide whether to stop, continue at standard depth, or archive.
+- [ ] Use `_templates/Prompt - Skim Reading.md` to run the interactive skim.
+- [ ] Generate this note only after the reading conversation is complete.
+- [ ] Decide whether to stop here, continue at standard depth, or promote to deep / paper-with-code.

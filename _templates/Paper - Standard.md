@@ -33,7 +33,7 @@ publish: true
 ## Reading Intent
 
 - Why this paper matters now:
-- Questions I want answered:
+- Questions I wanted answered:
 
 ## Problem And Motivation
 
@@ -87,5 +87,6 @@ publish: true
 
 ## Follow-Up
 
-- [ ] Set `status: reading` when the reading session starts.
-- [ ] Finalize standard note and decide whether it should become deep reading.
+- [ ] Use `_templates/Prompt - Standard Reading.md` to run the interactive reading session.
+- [ ] Generate this note only after the reading conversation is complete.
+- [ ] Decide whether the paper should be promoted to deep reading or paper-with-code.

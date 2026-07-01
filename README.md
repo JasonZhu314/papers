@@ -22,12 +22,14 @@ Read these docs in order:
 ## Core Workflow
 
 1. Select a paper worth at least skimming.
-2. Create or update one Markdown note in the correct Obsidian topic folder.
+2. Create or update one Markdown scaffold in the correct Obsidian topic folder.
 3. Fill the best available identifiers: `url`, `doi`, `arxiv`, and `pdf`.
 4. If a local PDF copy is useful, keep it under `_attachments/PDFs/<same path as note>.pdf`.
 5. Put near-term papers in `_dashboards/This Week.md`; keep passive placeholders as `status: library`.
-6. Read with the right depth: `skim`, `standard`, `deep`, or `paper-with-code`.
-7. When the paper becomes active or citation-relevant, add it to Zotero collection `Paper Reading` and sync metadata.
+6. Start a Codex reading session with the matching starter prompt from `_templates/Prompt - *.md`.
+7. Read interactively with the agent: ask questions, request section explanations, test your understanding, and critique the evidence.
+8. Generate or update the durable note only after the reading conversation is complete, using the final prompt for the chosen depth.
+9. When the paper becomes active or citation-relevant, add it to Zotero collection `Paper Reading` and sync metadata.
 
 ```powershell
 .\scripts\sync-zotero-metadata.ps1 -BibFile _private\zotero\paper-reading.bib
@@ -38,9 +40,9 @@ The first command is a dry run. The second fills safe bibliographic metadata aft
 
 ## Depth Levels
 
-- `skim`: less than one hour, often AI-assisted. Capture problem, core idea, evidence, conclusions, and why it matters.
-- `standard`: enough detail to cite or compare. Add method structure, assumptions, evaluation design, limitations, and related work.
-- `deep`: foundational or field-shaping papers. Reconstruct the method, evidence, influence, limitations, and reusable research patterns.
+- `skim`: less than one hour, often AI-assisted. Decide whether the paper matters and capture a short final note after the skim.
+- `standard`: enough detail to cite or compare. Understand method structure, assumptions, evaluation design, limitations, and related work before generating the note.
+- `deep`: foundational or field-shaping papers. Reconstruct the method, evidence, influence, limitations, and reusable research patterns across one or more sessions.
 - `paper-with-code`: a deep note plus implementation, reproduction, code map, commands, and experimental observations.
 
 ## Status Values
@@ -48,8 +50,8 @@ The first command is a dry run. The second fills safe bibliographic metadata aft
 - `library`: collected placeholder, not part of the active reading workflow.
 - `inbox`: captured for near-term triage.
 - `queued`: selected for reading.
-- `reading`: actively being read.
-- `done`: note is good enough for its intended depth.
+- `reading`: actively being read in an interactive session.
+- `done`: final note is good enough for its intended depth.
 - `archived`: kept for context but not active.
 
 ## Downloaded PDF Quick Path
@@ -59,7 +61,7 @@ If you downloaded a new paper PDF:
 1. Decide whether it is for this week or just collection.
 2. Put the PDF under `_attachments/PDFs/<topic path>/<paper title>.pdf`.
 3. Create or update one note in the matching topic folder.
-4. If reading this week, add the note to `_dashboards/This Week.md` and use the matching prompt from `_templates/Prompt - *.md`.
+4. If reading this week, add the note to `_dashboards/This Week.md` and use the matching starter prompt from `_templates/Prompt - *.md`.
 5. If just collecting, leave it as `status: library` and do not add it to the weekly queue.
 
 ## Public Policy

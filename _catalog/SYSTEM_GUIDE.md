@@ -7,7 +7,7 @@ This repository is a public-by-default Obsidian paper reading system for PhD res
 1. Zotero owns bibliographic identity once a paper is active or citation-relevant.
 2. Obsidian owns understanding.
 3. The filesystem helps retrieval, but metadata drives dashboards and MOCs.
-4. AI agents automate intake, scaffolding, metadata cleanup, and first-pass explanation.
+4. AI agents support intake, scaffolding, metadata cleanup, interactive explanation, and final note generation after reading.
 5. Human attention is reserved for judgment: why the paper matters, what it actually proves, how it relates to your research, and what ideas it triggers.
 
 ## System Components
@@ -124,9 +124,19 @@ importance: 1-5
 
 Do not overuse `deep`. Most papers should be skimmed. Deep reading is for foundational, thesis-central, or unusually clarifying papers.
 
-### 4. Reading
+### 4. Interactive Reading
 
-Use the note template and prompt template matching the reading depth: skim, standard, deep, or paper-with-code. During AI-assisted reading, the agent should help you answer:
+Use the prompt template matching the reading depth: skim, standard, deep, or paper-with-code.
+
+A reading session has three phases:
+
+1. Starter prompt: give the agent the note path, PDF or Zotero item, research context, and depth-specific instructions.
+2. Interactive reading: ask for section guidance, clarification, equation explanations, checkpoints, critique, and idea generation while you read.
+3. Final note prompt: generate the durable Obsidian note after the paper is understood.
+
+During starter and interactive phases, the agent should keep work in the conversation. It should not fill the final note body, summarize the whole paper into the note, or mark the paper `done`. If you explicitly ask, it may make minimal lifecycle edits such as setting `status: reading`, but the actual note should be produced only at the end.
+
+The agent should help you answer:
 
 - What problem is the paper solving?
 - Why was the problem important at the time?
@@ -139,7 +149,9 @@ Use the note template and prompt template matching the reading depth: skim, stan
 
 ### 5. Completion
 
-A paper is `done` when the note is good enough for its intended depth, not when every detail is understood.
+A paper is `done` when the final note is good enough for its intended depth, not when every detail is understood.
+
+After the interactive reading conversation is complete, use the final note prompt from the matching `_templates/Prompt - *.md` file. The final prompt should tell the agent your takeaways, unresolved questions, and any private ideas that must not be published.
 
 Set:
 
@@ -222,9 +234,10 @@ Use this when you encounter a new paper online.
 4. Fill `url`, `doi`, `arxiv`, and `pdf` from the source page or local PDF when available.
 5. If a local PDF is desired, move/copy it to `_attachments/PDFs/<note path>.pdf`.
 6. If reading this week, add the note to `_dashboards/This Week.md` and set `status: queued`.
-7. Start an AI-assisted reading session; set `status: reading` when the session begins.
-8. After reading, update `status`, `depth`, `importance`, `date_read`, and `has_ideas`.
-9. Add the paper to Zotero and run sync when it becomes active, important, or citation-relevant.
+7. Start an AI-assisted reading session with the depth-specific starter prompt.
+8. Read interactively. Use the agent for clarification, section guidance, critical checks, and idea prompts.
+9. After reading, use the final note prompt to generate the note and update `status`, `depth`, `importance`, `date_read`, and `has_ideas`.
+10. Add the paper to Zotero and run sync when it becomes active, important, or citation-relevant.
 
 ## Existing PDF Workflow
 
@@ -234,35 +247,57 @@ Use this when the PDF is already under `_attachments/PDFs/...` but not in Zotero
 2. Identify DOI or arXiv ID if available.
 3. Make sure the note has a correct `pdf` path and source identifier if possible.
 4. If reading this week, add the note to `_dashboards/This Week.md` and set `status: queued`.
-5. Read with Codex; set `status: reading` when the session begins.
-6. Add the paper to Zotero and run sync when it becomes active, important, or citation-relevant.
+5. Start Codex with the matching depth-specific starter prompt.
+6. Read interactively; do not generate the final note until the paper is understood.
+7. Add the paper to Zotero and run sync when it becomes active, important, or citation-relevant.
 
 ## Starting A Codex Reading Session
 
-Start Codex from this repository root. Use the matching prompt template under `_templates/Prompt - *.md`, then fill in the note path, PDF path or Zotero item, desired depth, and research context.
+Start Codex from this repository root. Open the matching prompt template under `_templates/Prompt - *.md` and paste the Starter Prompt, filling in the note path, PDF path or Zotero item, desired depth, research context, and questions.
 
-Minimal prompt:
+Minimal starter prompt:
 
 ```text
-I want to read <paper title>. The note is <note path>. The PDF is <pdf path or Zotero item>. Read it with me at <skim|standard|deep|paper-with-code> depth. Focus on problem, method, evidence, limitations, related work, and ideas relevant to my research. Ask me questions when needed. Do not overwrite existing human notes. Update the note when we have enough understanding.
+I want to read <paper title> interactively at <skim|standard|deep|paper-with-code> depth.
+
+Note: <note path>
+PDF or Zotero item: <pdf path or Zotero URI>
+My research context: <context>
+Specific questions I care about: <questions>
+
+Do not generate or fill the final Obsidian note yet. Guide my reading, answer questions, explain sections, critique evidence, and prompt me to think. We will generate the note only after I say the reading is complete.
 ```
 
-Use `_templates/Prompt - Skim Reading.md`, `_templates/Prompt - Standard Reading.md`, `_templates/Prompt - Deep Reading.md`, or `_templates/Prompt - Paper With Code.md` for depth-specific session starts. `_catalog/AI_AGENT_PROMPTS.md` remains the reference copy.
+During the session, use the Interactive Reading Prompts from the same template file whenever you want clarification, a checkpoint, a critique, or idea generation.
+
+When the reading is complete, paste the Final Note Prompt from the same template file. That is the point where the agent should generate or update the durable note.
+
+Do not use the final note prompt at the beginning of a reading session.
 
 ## How AI Agents Should Update Notes
 
-Agents may:
+During starter and interactive reading phases, agents should not fill the final note body. They may:
 
-- fill missing bibliographic metadata from Zotero/BibTeX;
-- create a scaffold from a template;
-- summarize the paper at the requested depth;
-- explain equations and methods;
-- update note sections;
+- inspect the PDF or source material;
+- answer questions and explain sections;
+- suggest what to read next;
+- test the user's understanding;
+- critique evidence and limitations;
+- suggest possible ideas in the conversation;
+- make minimal lifecycle edits, such as setting `status: reading`, only when explicitly asked.
+
+During finalization, agents may:
+
+- fill missing bibliographic metadata from Zotero/BibTeX or the paper;
+- create or update a note from the appropriate template;
+- synthesize the completed reading conversation into a durable note;
+- update `status`, `date_read`, `has_ideas`, `importance`, and depth-specific fields;
 - suggest topic/tag corrections;
 - suggest MOC synthesis updates.
 
 Agents must not:
 
+- generate a completed paper note before the reading conversation is done;
 - overwrite human-written interpretation without confirmation;
 - mark a paper `done` unless the note is good enough for the requested depth;
 - commit PDFs or private notes;
@@ -334,6 +369,6 @@ Place the note where you would look for it first. Use `topics` and `tags` for cr
 
 Split synthesis into sections, not necessarily folders. Create a new MOC only when it supports repeated revisiting.
 
-### AI Summary Feels Generic
+### Reading Session Feels Generic
 
-Force the agent to answer concrete questions: what problem, what method, what evidence, what limitation, what changes for your research.
+Use the interactive prompts to force concrete work: section guidance, explain-back checkpoints, evidence critique, limitations, and what changes for your research. Do not ask for a final note until you can state your own takeaways.

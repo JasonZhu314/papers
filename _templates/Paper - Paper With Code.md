@@ -93,5 +93,6 @@ publish: true
 
 ## Follow-Up
 
-- [ ] Set `status: reading` when the reading session starts.
-- [ ] Finalize the note when the paper understanding and implementation status are clear.
+- [ ] Use `_templates/Prompt - Paper With Code.md` to run the interactive paper-with-code session.
+- [ ] Generate this note only after paper understanding and code inspection are complete.
+- [ ] Update reproduction status only from actual inspection or runs, not guesses.

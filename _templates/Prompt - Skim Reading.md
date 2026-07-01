@@ -1,24 +1,70 @@
 # Skim Reading Prompt
 
+Use this when the goal is a fast, interactive decision: should this paper be ignored, remembered briefly, or promoted to standard/deep reading?
+
+## Starter Prompt
+
 ```text
-I want to skim this paper with you.
+I want to skim this paper interactively with you.
 
 Note: <note path>
 PDF or Zotero item: <pdf path or Zotero URI>
-Time budget: <30|45|60> minutes
+Time budget: <15|30|45|60> minutes
 My research context: <context>
+Specific question or decision: <question>
 
-Use `_templates/Paper - Skim.md` as the note shape if the note is still only a scaffold.
+Rules for this session:
+- Do not generate or fill the final Obsidian note yet.
+- Do not overwrite existing note content during the reading conversation.
+- If I explicitly ask you to edit files, only make minimal lifecycle/metadata edits such as `status: reading`; otherwise keep all work in the conversation.
+- Help me decide where to spend attention, not just summarize.
+- Ask short questions when my goal, background, or decision criterion is unclear.
 
-Please guide an AI-assisted skim:
-1. Identify the problem and motivation.
-2. State the core idea in one sentence.
-3. Explain the method at a high level.
-4. Summarize the experiment/evaluation design.
-5. Identify the main conclusion and limitations.
-6. Tell me whether this deserves standard or deep reading.
-7. Set the note to `status: reading` when the session starts.
-8. Update the note at skim depth after we discuss.
+Start by giving me:
+1. the fastest reading route through the paper;
+2. what to inspect first: abstract, figures, intro, experiments, conclusion, or appendix;
+3. the 3-5 questions I should answer before deciding whether to read deeper.
+```
 
-Do not spend time on full proofs or implementation unless they are central. Do not mark `status: done` until the skim note is complete.
+## Interactive Reading Prompts
+
+```text
+I just read the abstract and introduction. What is the actual problem, claim, and likely contribution? Ask me 2 questions to check whether I understood it.
+```
+
+```text
+I am looking at <figure/table/section>. Tell me what to extract from it and what would make the paper worth a deeper read.
+```
+
+```text
+Summarize <section> at skim depth. Separate what the authors claim from what they actually show.
+```
+
+```text
+Checkpoint my understanding: here is my one-sentence summary: <summary>. Correct it and tell me what I am missing.
+```
+
+```text
+Should I stop, keep this as a skim, or promote it to standard/deep reading? Judge by relevance, novelty, evidence quality, and usefulness to my research.
+```
+
+## Final Note Prompt
+
+```text
+We have finished the skim. Now generate or update the Obsidian note.
+
+Note: <note path>
+Use template: `_templates/Paper - Skim.md`
+Today's date: <YYYY-MM-DD>
+My final takeaways: <takeaways>
+Remaining uncertainty: <uncertainty>
+Decision: <stop|standard later|deep later|paper-with-code later>
+
+Rules:
+- Now, and only now, write the durable note.
+- Preserve any human-written note content unless I explicitly say to replace it.
+- Keep the note concise; this is a skim note, not a full reconstruction.
+- Mark uncertain points as uncertain instead of inventing details.
+- Set `status: done` only if the skim note is complete; otherwise leave `status: queued` or `reading` and list gaps.
+- Set `date_read`, `has_ideas`, `importance`, and `depth` deliberately.
 ```

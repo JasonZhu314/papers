@@ -32,8 +32,8 @@ publish: true
 
 ## Reading Intent
 
-- Why this paper is worth deep reading:
-- What I expect to learn:
+- Why this paper was worth deep reading:
+- What I wanted to be able to reconstruct:
 
 ## Context
 
@@ -134,5 +134,6 @@ publish: true
 
 ## Follow-Up
 
-- [ ] Set `status: reading` when the reading session starts.
-- [ ] Finalize deep note when the reconstruction, evidence, limitations, and reusable patterns are clear.
+- [ ] Use `_templates/Prompt - Deep Reading.md` to run the interactive deep-reading session.
+- [ ] Generate this note only after the reading conversation is complete.
+- [ ] Decide whether implementation or reproduction should be tracked in a paper-with-code pass.
