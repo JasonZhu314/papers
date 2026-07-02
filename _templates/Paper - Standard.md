@@ -81,6 +81,14 @@ publish: true
 - Core limitation:
 - Reusable pattern:
 
+## Taste Calibration
+
+- Why this paper mattered or did not:
+- What is technically elegant:
+- What is weaker or sloppier than expected:
+- What later work is likely to keep, fix, or discard:
+- What I would test before building on it:
+
 ## Follow-Up
 
 - [ ] Use `_templates/Prompt - Standard Reading.md` to run the interactive reading session.

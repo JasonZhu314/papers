@@ -18,6 +18,31 @@ A useful paper note should help you remember:
 - the relationship to prior and follow-up work;
 - what the paper changes about your own research taste.
 
+## Developing Research Taste
+
+Research taste is compressed judgment built from repeated comparisons. The practical goal is not to immediately have grand vision; it is to get better at identifying the right abstraction, the real bottleneck, and the evidence that should change your mind.
+
+Use these habits while reading:
+
+1. **Keep a why-it-mattered record.** For influential papers, write why the work became useful to the field, not only what it technically did.
+2. **Separate claim, mechanism, and evidence.** Ask what the paper wants you to believe, why the method should work, and what the experiments or theory actually support.
+3. **Read lineages instead of isolated papers.** Track what predecessors made possible, what the focal paper changed, and what follow-up work kept, repaired, or abandoned.
+4. **Predict survival before checking follow-ups.** Write which part of the paper you expect to survive in three years, which part may be hype, and what later papers are likely to fix.
+5. **Reproduce small pieces when possible.** Implementing one layer, one ablation, or one failure case often reveals which ideas are robust and which are fragile presentation.
+6. **Study competent failures.** Compare papers that are technically reasonable but did not become influential. Look for wrong bottlenecks, excessive complexity, weak evidence, or lack of reusable abstraction.
+7. **Classify by bottleneck.** Especially in [[SciML]], ask whether the work attacks accuracy, stability, data cost, speed, mesh transfer, geometry, physical consistency, uncertainty, or downstream usability.
+8. **Ask precise questions of stronger readers.** Prefer questions like "Is this assumption fatal?", "What evidence would make this convincing?", and "Which part is reusable?" over generic requests for whether a paper is good.
+
+After standard, deep, cluster, or paper-with-code reading, add a short taste calibration:
+
+- why this paper became influential or failed to;
+- what abstraction, mechanism, or benchmark story was reusable;
+- what was sloppier, weaker, or more limited than the paper's influence suggests;
+- what later work is likely to keep, fix, or discard;
+- what you would test before building on it.
+
+Keep this distinct from private research ideas. Public paper notes can include neutral taste calibration about the paper's field role; speculative extensions and unpublished directions should go in private notes.
+
 ## Selection Funnel
 
 Use a funnel instead of a completionist reading list.
@@ -148,6 +173,33 @@ Capture:
 - deviations from the paper;
 - implementation insights.
 
+### Cluster / Contrastive Reading
+
+Use when several papers answer one shared question.
+
+Good cluster examples:
+
+- paired contrast: [[BatchNorm]] vs [[LayerNorm]];
+- anchor plus extension: PCNO vs MPCNO;
+- same problem, different assumptions: [[Kaiming Initialization]] vs [[Xavier Initialization]];
+- version sequence or lineage: Mamba / SSM papers;
+- historical architecture family: [[AlexNet]], Inception, ResNet, and follow-ups.
+
+Goal: understand the design space, tradeoffs, and evolution of ideas without writing full standard notes for every paper.
+
+Capture:
+
+- the shared learning objective;
+- the anchor paper;
+- why each paper is in the cluster;
+- comparison axes chosen before reading;
+- what changed across papers;
+- which claims are supported by which evidence;
+- which paper should be cited for which point;
+- what decision the cluster changes for current research.
+
+Use individual notes for papers you need to cite or reconstruct independently. Use a cluster note when the durable artifact should be the comparison.
+
 ## Efficient Learning Workflow
 
 Do not measure paper reading like novel reading. A paper is not read linearly for total comprehension; it is mined for a purpose.
@@ -270,6 +322,94 @@ Realistic pattern:
 - Relevance skim: 15-30 minutes.
 
 Slow first readings are not failure if they create reusable vocabulary, concepts, and judgment for future papers.
+
+## Contrastive Reading Workflow
+
+Do not read multiple papers linearly in parallel. Read them contrastively around a shared question.
+
+The core question should have the form:
+
+> I am reading this cluster to understand `<design space / mechanism / lineage>` so that I can `<decision / implementation / research judgment>`.
+
+### When To Use A Cluster Note
+
+Use one cluster note when:
+
+- the papers are a tight sequence from the same line of work;
+- later papers mainly extend, repair, or supersede earlier papers;
+- the main value is comparison, not full reconstruction of each paper;
+- the papers share a problem, benchmark, method family, or historical lineage;
+- you need one research decision from the group.
+
+Keep separate full notes when:
+
+- each paper has a distinct method you may cite independently;
+- one paper is foundational enough for deep reading;
+- the papers have different problem settings or evidence standards;
+- you need precise implementation/reproduction tracking for each.
+
+Minimal compromise: keep individual paper notes as metadata stubs and put the real synthesis in the cluster note.
+
+### Cluster Types
+
+Pick the cluster type before reading because it determines the comparison axes.
+
+| Cluster Type | Example | Main Question |
+| --- | --- | --- |
+| Paired contrast | [[BatchNorm]] vs [[LayerNorm]] | What changes when one assumption is changed? |
+| Anchor plus extension | PCNO vs MPCNO | What limitation does the extension fix? |
+| Same problem, different solution | [[Kaiming Initialization]] vs [[Xavier Initialization]] | Which assumptions lead to different methods? |
+| Version sequence | Mamba / SSM papers | What changed across versions and which version is canonical? |
+| Historical lineage | [[AlexNet]], Inception, ResNet | What design principles became standard or obsolete? |
+| Benchmark cluster | Several methods on the same task | Which evidence is actually comparable? |
+
+### Reading Procedure
+
+1. **Define the cluster objective.** Write the decision or understanding the cluster should produce.
+2. **Choose the anchor.** Pick the paper that defines the vocabulary, mechanism, or strongest current version.
+3. **Choose comparison axes before reading.** Examples: input representation, architecture, target, assumptions, training objective, evidence, failure modes, compute, and relevance.
+4. **Skim all papers once.** Extract problem, claim, method sketch, evidence, and why the paper belongs in the cluster.
+5. **Read the anchor carefully.** Build the shared vocabulary and mechanism.
+6. **Read the other papers by delta.** Ask what changed, why it changed, and whether the change solved a real limitation.
+7. **Fill the comparison matrix.** Do this while reading, not only afterward.
+8. **Write the synthesis.** State the evolution, tradeoffs, strongest evidence, weakest assumptions, and the current research decision.
+9. **Decide individual-note depth.** Promote only papers that need independent standard/deep reading.
+
+### Contrastive Questions
+
+Ask these across the cluster:
+
+1. What is the shared problem?
+2. What does each paper treat as the bottleneck?
+3. What object does each method predict, optimize, normalize, represent, or preserve?
+4. Which assumption changed from one paper to another?
+5. Which evidence is comparable across papers, and which is not?
+6. Which result is due to a real mechanism rather than more compute, better tuning, or easier benchmarks?
+7. Which paper should be cited for the original idea, the best implementation, and the strongest evidence?
+8. What should I remember as the durable design principle?
+
+### Scenario Guidance
+
+For [[BatchNorm]] and [[LayerNorm]], use paired contrast. Focus on what dimension is normalized, dependence on batch statistics, train/inference mismatch, optimization effect, and why [[LayerNorm]] fits sequence models.
+
+For PCNO and MPCNO, use anchor plus extension. Read PCNO as the anchor, then ask what limitation MPCNO fixes and whether the change matters for time-dependent PDE prediction.
+
+For [[Kaiming Initialization]] and [[Xavier Initialization]], use same-problem/different-assumption reading. Slow-read the variance-preservation derivations and compare activation assumptions.
+
+For Mamba / SSM papers, use lineage reading. Build a timeline, identify the canonical version, and decide which paper supports which claim.
+
+For [[AlexNet]], Inception, ResNet, and similar architecture families, use historical lineage reading. Focus on bottlenecks, design principles, what became standard, what was abandoned, and what changed because of data/compute/tooling.
+
+### Common Failure Modes
+
+- Opening too many papers and reading none of them carefully.
+- Letting the cluster note become a bibliography instead of a comparison.
+- Choosing axes after reading, which makes the synthesis vague.
+- Treating non-comparable experiments as if they were a leaderboard.
+- Deep-reading every paper in the cluster by default.
+- Losing the anchor paper and therefore losing the shared vocabulary.
+
+Good default: skim 3-6 papers, read one anchor at standard/deep depth, and read the rest by delta.
 
 ## How To Read A Paper
 

@@ -65,6 +65,12 @@ publish: true
 
 -
 
+## Taste Calibration
+
+- Why this may or may not matter:
+- Reusable abstraction or pattern:
+- Reason to promote or not promote:
+
 ## Follow-Up
 
 - [ ] Use `_templates/Prompt - Skim Reading.md` to run the interactive skim.

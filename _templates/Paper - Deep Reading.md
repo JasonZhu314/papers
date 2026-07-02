@@ -124,6 +124,14 @@ publish: true
 - Core limitation:
 - Reusable pattern:
 
+## Taste Calibration
+
+- Why this paper became influential:
+- What is technically elegant:
+- What is weaker or sloppier than expected:
+- What survived into later work:
+- What I would test before building on it:
+
 ## Follow-Up
 
 - [ ] Use `_templates/Prompt - Deep Reading.md` to run the interactive deep-reading session.

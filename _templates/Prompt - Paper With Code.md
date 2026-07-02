@@ -79,6 +79,7 @@ Today's date: <YYYY-MM-DD>
 My final takeaways: <takeaways>
 Reproduction status: <not-started|planned|partial|reproduced|blocked>
 Implementation status: <not-started|inspected|usable|fragile|blocked>
+Taste calibration: <why it mattered; reusable paper/code pattern; fragility; what to test before building on it>
 Private ideas to avoid publishing: <private ideas or none>
 
 Rules:
@@ -88,6 +89,7 @@ Rules:
 - Separate paper method, code map, environment, reproduction plan, and actual run log.
 - Do not invent commands or results. Mark unknowns and blocked items clearly.
 - Keep the public paper note limited to material distilled from the paper/code: method, evidence, implementation facts, reproduction status, limitations, and neutral critique.
+- Include a Taste Calibration section with public, paper-grounded judgment about influence, reusable patterns, and paper-to-code fragility.
 - Do not put research ideas, speculative connections, private insights, or unresolved questions in the public paper note.
 - If `Private ideas to avoid publishing` is not `none`, create or update a companion private note under `papers/_private/` with `publish: false`; the private note should link back to the public paper note, but the public paper note should not link to the private note.
 - Do not write workflow or note-policy instructions into generated notes.

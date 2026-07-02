@@ -29,7 +29,7 @@ publish: true
 
 # MFE
 
-PDF: [[_attachments/PDFs/SciML/Operator Learning/Neural Operators/Fourier Neural Operators/MFE.pdf|Open PDF]]
+PDF: [[MFE.pdf|Open PDF]]
 
 ## Quick Recall
 

@@ -87,6 +87,14 @@ publish: true
 
 -
 
+## Taste Calibration
+
+- Why this paper/code mattered:
+- Reusable abstraction or engineering pattern:
+- What is elegant in the paper-to-code translation:
+- What is fragile, underdocumented, or overclaimed:
+- What I would test before building on it:
+
 ## Follow-Up
 
 - [ ] Use `_templates/Prompt - Paper With Code.md` to run the interactive paper-with-code session.

@@ -83,6 +83,7 @@ Use template: `_templates/Paper - Deep Reading.md`
 Today's date: <YYYY-MM-DD>
 My final reconstruction: <reconstruction>
 My unresolved questions: <questions>
+Taste calibration: <why it became influential; elegant part; weak part; what survived; what to test before building on it>
 Private ideas to avoid publishing: <private ideas or none>
 
 Rules:
@@ -93,6 +94,7 @@ Rules:
 - Separate formal claims, evidence, limitations, and my interpretation.
 - Mark uncertain points as uncertain instead of inventing details.
 - Keep the public paper note limited to material distilled from the paper: problem, method, claims, evidence, limitations, and neutral critique.
+- Include a Taste Calibration section with public, paper-grounded judgment about influence, reusable patterns, weaknesses, and later impact.
 - Do not put research ideas, speculative connections, private insights, or unresolved questions in the public paper note.
 - If `Private ideas to avoid publishing` is not `none`, create or update a companion private note under `papers/_private/` with `publish: false`; the private note should link back to the public paper note, but the public paper note should not link to the private note.
 - Do not write workflow or note-policy instructions into generated notes.

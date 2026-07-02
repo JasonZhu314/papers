@@ -71,6 +71,7 @@ Today's date: <YYYY-MM-DD>
 My final takeaways: <takeaways>
 Remaining uncertainty: <uncertainty>
 Decision: <stop|standard later|deep later|paper-with-code later>
+Taste calibration: <why it matters or not; reusable pattern; promote/not-promote reason>
 Private ideas to avoid publishing: <private ideas or none>
 
 Rules:
@@ -79,6 +80,7 @@ Rules:
 - Keep the note concise; this is a skim note, not a full reconstruction.
 - Mark uncertain points as uncertain instead of inventing details.
 - Keep the public paper note limited to material distilled from the paper: problem, claim, evidence signal, limitations, and reading decision.
+- Include a concise Taste Calibration section only with public, paper-grounded judgment; keep speculative research ideas private.
 - Do not put research ideas, speculative connections, private insights, or unresolved questions in the public paper note.
 - If `Private ideas to avoid publishing` is not `none`, create or update a companion private note under `papers/_private/` with `publish: false`; the private note should link back to the public paper note, but the public paper note should not link to the private note.
 - Do not write workflow or note-policy instructions into generated notes.
