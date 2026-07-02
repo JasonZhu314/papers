@@ -10,9 +10,11 @@ I want to read this paper and inspect its implementation with you.
 Note: <note path>
 PDF or Zotero item: <pdf path or Zotero URI>
 Code repository: <repo URL or local path>
+Learning objective: I am reading this paper/code to understand or reuse <X> so that I can <Y>.
 Target result or component: <target>
 My hardware/software constraints: <constraints>
 My research context: <context>
+Relevant background I am weak on: <weak background>
 
 Rules for this session:
 - Do not generate or fill the final Obsidian note yet.
@@ -21,6 +23,9 @@ Rules for this session:
 - Do not run expensive experiments, install dependencies, download large data, or modify external repos without asking.
 - First understand the paper. Then map concepts to code. Then discuss reproduction.
 - Distinguish paper claims from what the code actually supports.
+- Use objective-driven passes: orient me to the paper's load-bearing method, audit my understanding, then inspect only the code paths needed for the target.
+- Do not summarize the repository broadly when a narrow code map is enough.
+- Teach background on demand only when it affects implementation or reproduction.
 
 Start by giving me:
 1. a reading route through the paper;
@@ -30,6 +35,10 @@ Start by giving me:
 ```
 
 ## Interactive Reading Prompts
+
+```text
+I am about to read <paper section>. Give me a reading guide focused on what must later be found in code: objects, equations, algorithms, configs, losses, data flow, and evaluation claims.
+```
 
 ```text
 I finished <paper section>. Explain the method and identify what code files or modules should implement it.
@@ -45,6 +54,10 @@ What should I verify before trying to reproduce <result>? List data, checkpoint,
 
 ```text
 Here is my understanding of the implementation: <summary>. Find mismatches between the paper and code.
+```
+
+```text
+Here is the result/component I care about: <target>. Tell me the minimal paper sections and code paths I need to inspect, and what I can ignore for now.
 ```
 
 ```text
@@ -74,7 +87,10 @@ Rules:
 - Preserve any human-written note content unless I explicitly say to replace it.
 - Separate paper method, code map, environment, reproduction plan, and actual run log.
 - Do not invent commands or results. Mark unknowns and blocked items clearly.
-- Keep private or unpublished ideas out of public notes unless I explicitly approve them.
+- Keep the public paper note limited to material distilled from the paper/code: method, evidence, implementation facts, reproduction status, limitations, and neutral critique.
+- Do not put research ideas, speculative connections, private insights, or unresolved questions in the public paper note.
+- If `Private ideas to avoid publishing` is not `none`, create or update a companion private note under `papers/_private/` with `publish: false`; the private note should link back to the public paper note, but the public paper note should not link to the private note.
+- Do not write workflow or note-policy instructions into generated notes.
 - Set `status: done` only if paper understanding and implementation/reproduction status are clear enough for this depth; otherwise leave `status: reading` and list gaps.
 - Set `date_read`, `has_ideas`, `importance`, `depth`, `implementation_status`, and `reproduction_status` deliberately.
 ```

@@ -79,15 +79,11 @@ publish: true
 
 -
 
-## Implementation Insights
+## Implementation Notes
 
 -
 
 ## Failure Modes
-
--
-
-## Ideas Triggered
 
 -
 

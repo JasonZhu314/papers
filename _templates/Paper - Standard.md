@@ -81,10 +81,6 @@ publish: true
 - Core limitation:
 - Reusable pattern:
 
-## Connections And Ideas
-
--
-
 ## Follow-Up
 
 - [ ] Use `_templates/Prompt - Standard Reading.md` to run the interactive reading session.

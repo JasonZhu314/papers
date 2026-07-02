@@ -124,14 +124,6 @@ publish: true
 - Core limitation:
 - Reusable pattern:
 
-## Ideas Triggered
-
--
-
-## Open Questions
-
--
-
 ## Follow-Up
 
 - [ ] Use `_templates/Prompt - Deep Reading.md` to run the interactive deep-reading session.

@@ -65,10 +65,6 @@ publish: true
 
 -
 
-## Connections And Ideas
-
--
-
 ## Follow-Up
 
 - [ ] Use `_templates/Prompt - Skim Reading.md` to run the interactive skim.

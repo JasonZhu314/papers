@@ -67,10 +67,6 @@ PDF: {{pdf_link}}
 
 -
 
-## Connections And Ideas
-
--
-
 ## Follow-Up
 
 - [ ] Decide whether this should remain `skim`, become `standard`, or be promoted to `deep` / `paper-with-code`.
